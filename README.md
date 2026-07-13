@@ -331,7 +331,7 @@ MIT 开源，支持编程调用 `DeepResearchPairwiseMetric`。
 
 ---
 
-#### DRACO 🆕
+#### DRACO
 
 | 属性 | 值 |
 |------|-----|
@@ -346,7 +346,7 @@ MIT 开源，支持编程调用 `DeepResearchPairwiseMetric`。
 
 ---
 
-#### PhySciBench 🆕
+#### PhySciBench
 
 | 属性 | 值 |
 |------|-----|
@@ -360,7 +360,7 @@ MIT 开源，支持编程调用 `DeepResearchPairwiseMetric`。
 
 ---
 
-#### MMDR-Bench（多模态深度研究）🆕
+#### MMDR-Bench（多模态深度研究）
 
 | 属性 | 值 |
 |------|-----|
@@ -374,7 +374,7 @@ MIT 开源，支持编程调用 `DeepResearchPairwiseMetric`。
 
 ---
 
-#### PDR-Bench（个性化深度研究）🆕
+#### PDR-Bench（个性化深度研究）
 
 | 属性 | 值 |
 |------|-----|
@@ -389,7 +389,7 @@ PQR 框架：个性化(Personalization)、质量(Quality)、可靠性(Reliabilit
 
 ---
 
-#### InfoSeek 🆕
+#### InfoSeek 
 
 | 属性 | 值 |
 |------|-----|
@@ -404,8 +404,20 @@ PQR 框架：个性化(Personalization)、质量(Quality)、可靠性(Reliabilit
 
 ---
 
-#### KnowledgeBerg 🆕
+#### DEEPSYNTH 
 
+| 属性 | 值 |
+|------|-----|
+| 发布方 | 华为诺亚方舟实验室(英国)和伦敦帝国学院|
+| 发布时间 | 2026 |
+| 样本量 | 120 tasks |
+| **GitHub** | [agentdeepsynthesis/deepsynth-bench](https://github.com/agentdeepsynthesis/deepsynth-bench) |
+
+**五种衡量指标**：F1 / Precision / Recall / Exact Match (EM) / LLM as Judge
+
+---
+
+#### KnowledgeBerg 
 | 属性 | 值 |
 |------|-----|
 | 发布时间 | 2026 (ACL 2026 Findings) |
@@ -492,7 +504,7 @@ DeepResearch/
     └── prompts.py                       # Explorer/Critic Agent Prompt
 ```
 
-### 4.3 推理 Prompt（Inference）详解
+### 4.3 推理 Prompt（Inference）
 
 #### System Prompt
 
@@ -526,7 +538,7 @@ Think -> Act (<tool_call> JSON) -> Observe (<tool_response>) -> Loop -> <answer>
 {"rational": "...", "evidence": "...", "summary": "..."}
 ```
 
-### 4.4 评估 Prompt（Evaluation）详解
+### 4.4 评估 Prompt（Evaluation）
 
 | Judge Prompt | 用途 | 输出格式 | 示例校准 |
 |-------------|------|----------|----------|
