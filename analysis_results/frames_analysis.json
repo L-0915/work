@@ -1,0 +1,349 @@
+{
+  "dataset_id": "google/frames-benchmark",
+  "name": "FRAMES",
+  "year": 2024,
+  "publisher": "Google DeepMind",
+  "url": "https://huggingface.co/datasets/google/frames-benchmark",
+  "num_rows": 824,
+  "columns": [
+    "Unnamed: 0",
+    "Prompt",
+    "Answer",
+    "wikipedia_link_1",
+    "wikipedia_link_2",
+    "wikipedia_link_3",
+    "wikipedia_link_4",
+    "wikipedia_link_5",
+    "wikipedia_link_6",
+    "wikipedia_link_7",
+    "wikipedia_link_8",
+    "wikipedia_link_9",
+    "wikipedia_link_10",
+    "wikipedia_link_11+",
+    "reasoning_types",
+    "wiki_links"
+  ],
+  "column_details": {
+    "Unnamed: 0": {
+      "dtype": "numeric",
+      "total": 824,
+      "null_count": 0,
+      "unique_count": 824,
+      "samples": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "Prompt": {
+      "dtype": "string",
+      "total": 824,
+      "null_count": 0,
+      "unique_count": 824,
+      "samples": [
+        "If my future wife has the same first name as the 15th first lady of the United States' mother and her surname is the same as the second assassinated president's mother's maiden name, what is my future",
+        "Imagine there is a building called Bronte tower whose height in feet is the same number as the dewey decimal classification for the Charlotte Bronte book that was published in 1847. Where would this b",
+        "How many years earlier would Punxsutawney Phil have to be canonically alive to have made a Groundhog Day prediction in the same state as the US capitol?"
+      ]
+    },
+    "Answer": {
+      "dtype": "string",
+      "total": 824,
+      "null_count": 0,
+      "unique_count": 780,
+      "samples": [
+        "Jane Ballou",
+        "37th",
+        "87"
+      ]
+    },
+    "wikipedia_link_1": {
+      "dtype": "string",
+      "total": 824,
+      "null_count": 0,
+      "unique_count": 796,
+      "samples": [
+        "https://en.wikipedia.org/wiki/President_of_the_United_States",
+        "https://en.wikipedia.org/wiki/Charlotte_Bront%C3%AB",
+        "https://en.wikipedia.org/wiki/Punxsutawney_Phil"
+      ]
+    },
+    "wikipedia_link_2": {
+      "dtype": "string",
+      "total": 824,
+      "null_count": 0,
+      "unique_count": 804,
+      "samples": [
+        "https://en.wikipedia.org/wiki/James_Buchanan",
+        "https://en.wikipedia.org/wiki/Jane_Eyre",
+        "https://en.wikipedia.org/wiki/United_States_Capitol"
+      ]
+    },
+    "wikipedia_link_3": {
+      "dtype": "string",
+      "total": 824,
+      "null_count": 310,
+      "unique_count": 508,
+      "samples": [
+        "https://en.wikipedia.org/wiki/Harriet_Lane",
+        "https://en.wikipedia.org/wiki/List_of_tallest_buildings_in_New_York_City",
+        "https://en.wikipedia.org/wiki/UEFA_Champions_League"
+      ]
+    },
+    "wikipedia_link_4": {
+      "dtype": "string",
+      "total": 824,
+      "null_count": 598,
+      "unique_count": 223,
+      "samples": [
+        "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_who_died_in_office",
+        "https://en.wikipedia.org/wiki/Meshuggah",
+        "https://en.wikipedia.org/wiki/Mendelevium"
+      ]
+    },
+    "wikipedia_link_5": {
+      "dtype": "string",
+      "total": 824,
+      "null_count": 732,
+      "unique_count": 92,
+      "samples": [
+        "https://en.wikipedia.org/wiki/James_A._Garfield",
+        "https://en.wikipedia.org/wiki/Periodic_table",
+        "https://en.wikipedia.org/wiki/Apollo_program"
+      ]
+    },
+    "wikipedia_link_6": {
+      "dtype": "string",
+      "total": 824,
+      "null_count": 771,
+      "unique_count": 53,
+      "samples": [
+        "https://en.wikipedia.org/wiki/Warner_Music_Group",
+        "https://en.wikipedia.org/wiki/Mulona_piperita",
+        "https://en.wikipedia.org/wiki/Dalmarnock"
+      ]
+    },
+    "wikipedia_link_7": {
+      "dtype": "string",
+      "total": 824,
+      "null_count": 788,
+      "unique_count": 36,
+      "samples": [
+        "https://en.wikipedia.org/wiki/Warner_Records",
+        "https://en.wikipedia.org/wiki/Mulona_schausi",
+        "https://en.wikipedia.org/wiki/Australian_Capital_Territory"
+      ]
+    },
+    "wikipedia_link_8": {
+      "dtype": "string",
+      "total": 824,
+      "null_count": 801,
+      "unique_count": 23,
+      "samples": [
+        "https://en.wikipedia.org/wiki/Queensland",
+        "https://en.wikipedia.org/wiki/Sheffield_United_F.C.",
+        "https://en.wikipedia.org/wiki/William_VII_of_Montpellier"
+      ]
+    },
+    "wikipedia_link_9": {
+      "dtype": "string",
+      "total": 824,
+      "null_count": 807,
+      "unique_count": 17,
+      "samples": [
+        "https://en.wikipedia.org/wiki/Northern_Territory",
+        "https://en.wikipedia.org/wiki/Charlton_Athletic_F.C.",
+        "https://en.wikipedia.org/wiki/William_VIII_of_Montpellier"
+      ]
+    },
+    "wikipedia_link_10": {
+      "dtype": "string",
+      "total": 824,
+      "null_count": 810,
+      "unique_count": 14,
+      "samples": [
+        "https://en.wikipedia.org/wiki/Honshu",
+        "https://en.wikipedia.org/wiki/Bradford_City_A.F.C.",
+        "https://en.wikipedia.org/wiki/William_IX_of_Montpellier"
+      ]
+    },
+    "wikipedia_link_11+": {
+      "dtype": "string",
+      "total": 824,
+      "null_count": 811,
+      "unique_count": 13,
+      "samples": [
+        "https://en.wikipedia.org/wiki/List_of_Apollo_missions",
+        "https://en.wikipedia.org/wiki/Sumatra",
+        "https://en.wikipedia.org/wiki/American_Family_Field, https://en.wikipedia.org/wiki/LoanDepot_Park, https://en.wikipedia.org/wiki/Globe_Life_Field, "
+      ]
+    },
+    "reasoning_types": {
+      "dtype": "string",
+      "total": 824,
+      "null_count": 0,
+      "unique_count": 30,
+      "samples": [
+        "Multiple constraints",
+        "Numerical reasoning | Tabular reasoning | Multiple constraints",
+        "Numerical reasoning | Multiple constraints | Temporal reasoning"
+      ]
+    },
+    "wiki_links": {
+      "dtype": "string",
+      "total": 824,
+      "null_count": 0,
+      "unique_count": 816,
+      "samples": [
+        "['https://en.wikipedia.org/wiki/President_of_the_United_States', 'https://en.wikipedia.org/wiki/James_Buchanan', 'https://en.wikipedia.org/wiki/Harriet_Lane', 'https://en.wikipedia.org/wiki/List_of_pr",
+        "['https://en.wikipedia.org/wiki/Charlotte_Bront%C3%AB', 'https://en.wikipedia.org/wiki/Jane_Eyre', 'https://en.wikipedia.org/wiki/List_of_tallest_buildings_in_New_York_City']",
+        "['https://en.wikipedia.org/wiki/Punxsutawney_Phil', 'https://en.wikipedia.org/wiki/United_States_Capitol']"
+      ]
+    }
+  },
+  "answer_format": "single_string",
+  "answer_format_distribution": {
+    "single_string": 128,
+    "set": 31,
+    "number": 41,
+    "structured": 0
+  },
+  "evaluation_method": "LLM-as-Judge — 语义等价判断 + 引用验证",
+  "evaluation_evidence": "答案较长/开放, 需要 LLM Judge 判断语义等价; 含引用列: ['wikipedia_link_1', 'wikipedia_link_2', 'wikipedia_link_3', 'wikipedia_link_4', 'wikipedia_link_5', 'wikipedia_link_6', 'wikipedia_link_7', 'wikipedia_link_8', 'wikipedia_link_9', 'wikipedia_link_10', 'wikipedia_link_11+', 'wiki_links']",
+  "prompt_patterns": {
+    "instruction_verbs": {
+      "what": 352,
+      "who": 251,
+      "which": 176,
+      "name": 155,
+      "how many": 139,
+      "when": 83,
+      "where": 42,
+      "how much": 20,
+      "list": 13,
+      "compare": 10
+    },
+    "constraint_markers": {
+      "after": 78,
+      "between": 50,
+      "before": 47,
+      "only": 28,
+      "including": 7,
+      "exactly": 7,
+      "within": 5,
+      "more than": 4,
+      "at least": 3,
+      "excluding": 2
+    },
+    "question_starters": {
+      "What": 177,
+      "How": 113,
+      "As": 71,
+      "Which": 66,
+      "Who": 65,
+      "The": 51,
+      "In": 43,
+      "If": 19
+    },
+    "has_numbered_list": 2,
+    "has_example": 1,
+    "has_tool_hint": 16,
+    "multi_hop_indicators": 28,
+    "avg_questions_per_prompt": 1.02
+  },
+  "domain_distribution": {
+    "Multiple constraints": 265,
+    "Numerical reasoning | Tabular reasoning | Multiple constraints": 24,
+    "Numerical reasoning | Multiple constraints | Temporal reasoning": 39,
+    "Tabular reasoning | Multiple constraints | Temporal reasoning": 21,
+    "Multiple constraints | Temporal reasoning": 44,
+    "Temporal reasoning": 50,
+    "Tabular reasoning | Multiple constraints": 50,
+    "Numerical reasoning | Tabular reasoning | Post processing | Temporal reasoning": 3,
+    "Numerical reasoning | Tabular reasoning | Multiple constraints | Temporal reasoning": 17,
+    "Tabular reasoning | Temporal reasoning": 17,
+    "Numerical reasoning | Tabular reasoning": 23,
+    "Numerical reasoning": 58,
+    "Numerical reasoning | Post processing": 15,
+    "Numerical reasoning | Multiple constraints | Post processing": 7,
+    "Numerical reasoning | Tabular reasoning | Temporal reasoning": 10,
+    "Numerical reasoning | Multiple constraints": 28,
+    "Post processing": 7,
+    "Tabular reasoning": 41,
+    "Tabular reasoning | Multiple constraints | Post processing": 6,
+    "Numerical reasoning | Multiple constraints | Post processing | Temporal reasoning": 13,
+    "Post processing | Temporal reasoning": 7,
+    "Numerical reasoning | Tabular reasoning | Post processing": 4,
+    "Numerical reasoning | Tabular reasoning | Multiple constraints | Post processing": 2,
+    "Numerical reasoning | Temporal reasoning": 30,
+    "Multiple constraints | Post processing | Temporal reasoning": 5,
+    "Numerical reasoning | Tabular reasoning | Multiple constraints | Post processing | Temporal reasoning": 13,
+    "Multiple constraints | Post processing": 13,
+    "Numerical reasoning | Post processing | Temporal reasoning": 7,
+    "Tabular reasoning | Post processing": 3,
+    "Tabular reasoning | Multiple constraints | Post processing | Temporal reasoning": 2
+  },
+  "text_stats": {
+    "avg_question_chars": 155.3,
+    "avg_answer_chars": 30.7,
+    "max_question_chars": 801,
+    "min_question_chars": 43,
+    "total_chars": 153285
+  },
+  "sample_entries": [
+    {
+      "Unnamed: 0": "0",
+      "Prompt": "If my future wife has the same first name as the 15th first lady of the United States' mother and her surname is the same as the second assassinated president's mother's maiden name, what is my future wife's name? ",
+      "Answer": "Jane Ballou",
+      "wikipedia_link_1": "https://en.wikipedia.org/wiki/President_of_the_United_States",
+      "wikipedia_link_2": "https://en.wikipedia.org/wiki/James_Buchanan",
+      "wikipedia_link_3": "https://en.wikipedia.org/wiki/Harriet_Lane",
+      "wikipedia_link_4": "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_who_died_in_office",
+      "wikipedia_link_5": "https://en.wikipedia.org/wiki/James_A._Garfield",
+      "wikipedia_link_6": null,
+      "wikipedia_link_7": null,
+      "wikipedia_link_8": null,
+      "wikipedia_link_9": null,
+      "wikipedia_link_10": null,
+      "wikipedia_link_11+": null,
+      "reasoning_types": "Multiple constraints",
+      "wiki_links": "['https://en.wikipedia.org/wiki/President_of_the_United_States', 'https://en.wikipedia.org/wiki/James_Buchanan', 'https://en.wikipedia.org/wiki/Harriet_Lane', 'https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_who_died_in_office', 'https://en.wikipedia.org/wiki/James_A._Garfield']"
+    },
+    {
+      "Unnamed: 0": "1",
+      "Prompt": "Imagine there is a building called Bronte tower whose height in feet is the same number as the dewey decimal classification for the Charlotte Bronte book that was published in 1847. Where would this building rank among tallest buildings in New York City, as of August 2024?",
+      "Answer": "37th",
+      "wikipedia_link_1": "https://en.wikipedia.org/wiki/Charlotte_Bront%C3%AB",
+      "wikipedia_link_2": "https://en.wikipedia.org/wiki/Jane_Eyre",
+      "wikipedia_link_3": "https://en.wikipedia.org/wiki/List_of_tallest_buildings_in_New_York_City",
+      "wikipedia_link_4": null,
+      "wikipedia_link_5": null,
+      "wikipedia_link_6": null,
+      "wikipedia_link_7": null,
+      "wikipedia_link_8": null,
+      "wikipedia_link_9": null,
+      "wikipedia_link_10": null,
+      "wikipedia_link_11+": null,
+      "reasoning_types": "Numerical reasoning | Tabular reasoning | Multiple constraints",
+      "wiki_links": "['https://en.wikipedia.org/wiki/Charlotte_Bront%C3%AB', 'https://en.wikipedia.org/wiki/Jane_Eyre', 'https://en.wikipedia.org/wiki/List_of_tallest_buildings_in_New_York_City']"
+    },
+    {
+      "Unnamed: 0": "2",
+      "Prompt": "How many years earlier would Punxsutawney Phil have to be canonically alive to have made a Groundhog Day prediction in the same state as the US capitol?",
+      "Answer": "87",
+      "wikipedia_link_1": "https://en.wikipedia.org/wiki/Punxsutawney_Phil",
+      "wikipedia_link_2": "https://en.wikipedia.org/wiki/United_States_Capitol",
+      "wikipedia_link_3": null,
+      "wikipedia_link_4": null,
+      "wikipedia_link_5": null,
+      "wikipedia_link_6": null,
+      "wikipedia_link_7": null,
+      "wikipedia_link_8": null,
+      "wikipedia_link_9": null,
+      "wikipedia_link_10": null,
+      "wikipedia_link_11+": null,
+      "reasoning_types": "Numerical reasoning | Multiple constraints | Temporal reasoning",
+      "wiki_links": "['https://en.wikipedia.org/wiki/Punxsutawney_Phil', 'https://en.wikipedia.org/wiki/United_States_Capitol']"
+    }
+  ]
+}

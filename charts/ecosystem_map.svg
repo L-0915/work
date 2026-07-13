@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 750"
+     width="1100" height="750"
+     font-family="system-ui, -apple-system, sans-serif">
+  <rect width="1100" height="750" fill="#ffffff"/>
+
+  <text x="550.0" y="30" font-size="20" fill="#1a1a2e" text-anchor="middle" font-weight="bold">Deep Research 评测生态系统</text>
+  <rect x="30" y="55" width="320" height="42" rx="6" fill="#ef4444"/>
+  <text x="190.0" y="72" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Benchmarks
+(评测基准)</text>
+  <rect x="390" y="55" width="320" height="42" rx="6" fill="#8b5cf6"/>
+  <text x="550.0" y="72" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Tools &amp; Frameworks
+(工具与框架)</text>
+  <rect x="750" y="55" width="320" height="42" rx="6" fill="#10b981"/>
+  <text x="910.0" y="72" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">Models &amp; Agents
+(模型与 Agent)</text>
+  <rect x="45" y="110" width="90" height="24" rx="4" fill="#3b82f6"/>
+  <text x="90.0" y="125.0" font-size="9" fill="#fff" text-anchor="middle">GAIA</text>
+  <rect x="150" y="110" width="90" height="24" rx="4" fill="#3b82f6"/>
+  <text x="195.0" y="125.0" font-size="9" fill="#fff" text-anchor="middle">FRAMES</text>
+  <rect x="255" y="110" width="90" height="24" rx="4" fill="#ef4444"/>
+  <text x="300.0" y="125.0" font-size="9" fill="#fff" text-anchor="middle">BrowseComp</text>
+  <rect x="45" y="142" width="90" height="24" rx="4" fill="#10b981"/>
+  <text x="90.0" y="157.0" font-size="9" fill="#fff" text-anchor="middle">BrowseComp-Plus</text>
+  <rect x="150" y="142" width="90" height="24" rx="4" fill="#f59e0b"/>
+  <text x="195.0" y="157.0" font-size="9" fill="#fff" text-anchor="middle">xbench-DS</text>
+  <rect x="255" y="142" width="90" height="24" rx="4" fill="#f59e0b"/>
+  <text x="300.0" y="157.0" font-size="9" fill="#fff" text-anchor="middle">HLE</text>
+  <rect x="45" y="174" width="90" height="24" rx="4" fill="#f59e0b"/>
+  <text x="90.0" y="189.0" font-size="9" fill="#fff" text-anchor="middle">DeepSearchQA</text>
+  <rect x="150" y="174" width="90" height="24" rx="4" fill="#6366f1"/>
+  <text x="195.0" y="189.0" font-size="9" fill="#fff" text-anchor="middle">DRB2</text>
+  <rect x="255" y="174" width="90" height="24" rx="4" fill="#6366f1"/>
+  <text x="300.0" y="189.0" font-size="9" fill="#fff" text-anchor="middle">DRACO</text>
+  <rect x="45" y="206" width="90" height="24" rx="4" fill="#ef4444"/>
+  <text x="90.0" y="221.0" font-size="9" fill="#fff" text-anchor="middle">LiveBrowseComp</text>
+  <rect x="150" y="206" width="90" height="24" rx="4" fill="#ef4444"/>
+  <text x="195.0" y="221.0" font-size="9" fill="#fff" text-anchor="middle">PhySciBench</text>
+  <rect x="255" y="206" width="90" height="24" rx="4" fill="#6366f1"/>
+  <text x="300.0" y="221.0" font-size="9" fill="#fff" text-anchor="middle">MMDR-Bench</text>
+  <rect x="405" y="110" width="140" height="28" rx="4" fill="#6366f1"/>
+  <text x="475.0" y="127.0" font-size="9" fill="#fff" text-anchor="middle">perplexity/search_evals</text>
+  <rect x="560" y="110" width="140" height="28" rx="4" fill="#8b5cf6"/>
+  <text x="630.0" y="127.0" font-size="9" fill="#fff" text-anchor="middle">LDR Benchmarks</text>
+  <rect x="405" y="148" width="140" height="28" rx="4" fill="#a78bfa"/>
+  <text x="475.0" y="165.0" font-size="9" fill="#fff" text-anchor="middle">OpenResearcher</text>
+  <rect x="560" y="148" width="140" height="28" rx="4" fill="#c4b5fd"/>
+  <text x="630.0" y="165.0" font-size="9" fill="#fff" text-anchor="middle">Web-Bench (HF)</text>
+  <rect x="405" y="186" width="140" height="28" rx="4" fill="#ddd6fe"/>
+  <text x="475.0" y="203.0" font-size="9" fill="#fff" text-anchor="middle">EvalScope (ModelScope)</text>
+  <rect x="560" y="186" width="140" height="28" rx="4" fill="#ede9fe"/>
+  <text x="630.0" y="203.0" font-size="9" fill="#fff" text-anchor="middle">Alibaba DR eval/</text>
+  <rect x="405" y="224" width="140" height="28" rx="4" fill="#6366f1"/>
+  <text x="475.0" y="241.0" font-size="9" fill="#fff" text-anchor="middle">DeepConsult Pairwise</text>
+  <rect x="560" y="224" width="140" height="28" rx="4" fill="#8b5cf6"/>
+  <text x="630.0" y="241.0" font-size="9" fill="#fff" text-anchor="middle">BrowseComp-Plus corpus</text>
+  <rect x="765" y="110" width="90" height="24" rx="4" fill="#059669"/>
+  <text x="810.0" y="125.0" font-size="9" fill="#fff" text-anchor="middle">Tongyi DR 30B</text>
+  <rect x="870" y="110" width="90" height="24" rx="4" fill="#10b981"/>
+  <text x="915.0" y="125.0" font-size="9" fill="#fff" text-anchor="middle">GPT-5 + Browse</text>
+  <rect x="975" y="110" width="90" height="24" rx="4" fill="#34d399"/>
+  <text x="1020.0" y="125.0" font-size="9" fill="#fff" text-anchor="middle">Kimi K2.5 Swarm</text>
+  <rect x="765" y="142" width="90" height="24" rx="4" fill="#6ee7b7"/>
+  <text x="810.0" y="157.0" font-size="9" fill="#fff" text-anchor="middle">Gemini DR Max</text>
+  <rect x="870" y="142" width="90" height="24" rx="4" fill="#a7f3d0"/>
+  <text x="915.0" y="157.0" font-size="9" fill="#fff" text-anchor="middle">Claude Opus 4</text>
+  <rect x="975" y="142" width="90" height="24" rx="4" fill="#059669"/>
+  <text x="1020.0" y="157.0" font-size="9" fill="#fff" text-anchor="middle">OpenResearcher 30B</text>
+  <rect x="765" y="174" width="90" height="24" rx="4" fill="#10b981"/>
+  <text x="810.0" y="189.0" font-size="9" fill="#fff" text-anchor="middle">DeepSeek-R1</text>
+  <rect x="870" y="174" width="90" height="24" rx="4" fill="#34d399"/>
+  <text x="915.0" y="189.0" font-size="9" fill="#fff" text-anchor="middle">Search-R1</text>
+  <rect x="975" y="174" width="90" height="24" rx="4" fill="#6ee7b7"/>
+  <text x="1020.0" y="189.0" font-size="9" fill="#fff" text-anchor="middle">Perplexity DR</text>
+  <line x1="350" y1="140" x2="390" y2="130" stroke="#e8ecf1" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <line x1="350" y1="200" x2="390" y2="190" stroke="#e8ecf1" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <line x1="350" y1="260" x2="390" y2="250" stroke="#e8ecf1" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <line x1="350" y1="320" x2="390" y2="310" stroke="#e8ecf1" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <line x1="710" y1="140" x2="750" y2="130" stroke="#e8ecf1" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <line x1="710" y1="200" x2="750" y2="190" stroke="#e8ecf1" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <line x1="710" y1="260" x2="750" y2="250" stroke="#e8ecf1" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <line x1="710" y1="320" x2="750" y2="310" stroke="#e8ecf1" stroke-width="0.8" stroke-dasharray="4,3"/>
+  <rect x="30" y="550" width="1040" height="180" rx="8" fill="#f8fafc"/>
+  <text x="50" y="575" font-size="14" fill="#1a1a2e" text-anchor="start" font-weight="bold">生态关系说明</text>
+  <text x="50" y="600" font-size="11" fill="#6b7280" text-anchor="start">1. Benchmarks 定义评测标准和问题集, 通过 Tools 实现对 Models 的自动化评估</text>
+  <text x="50" y="620" font-size="11" fill="#6b7280" text-anchor="start">2. Tools 提供统一接口: 加载数据集 -&gt; 运行 Agent -&gt; 提取答案 -&gt; 调用 Judge -&gt; 计算指标</text>
+  <text x="50" y="640" font-size="11" fill="#6b7280" text-anchor="start">3. OpenResearcher/Web-Bench 致力于统一各 benchmark 格式, 降低评测门槛</text>
+  <text x="50" y="660" font-size="11" fill="#6b7280" text-anchor="start">4. LDR Benchmarks 是社区驱动的公开排行榜, 任何人可提交结果 (YAML PR)</text>
+  <text x="50" y="680" font-size="11" fill="#6b7280" text-anchor="start">5. 2026 年趋势: 固定语料库 (BrowseComp-Plus) + 时间窗口 (LiveBrowseComp) + 加密数据集防污染</text>
+  <text x="50" y="700" font-size="11" fill="#6b7280" text-anchor="start">6. DeepSearchQA 首次引入集合答案评估, 推动从「答对」到「答全」的范式转变</text>
+</svg>

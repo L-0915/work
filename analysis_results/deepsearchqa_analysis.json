@@ -1,0 +1,154 @@
+{
+  "dataset_id": "google/deepsearchqa",
+  "name": "DeepSearchQA",
+  "year": 2026,
+  "publisher": "Google DeepMind",
+  "url": "https://huggingface.co/datasets/google/deepsearchqa",
+  "num_rows": 900,
+  "columns": [
+    "problem",
+    "problem_category",
+    "answer",
+    "answer_type"
+  ],
+  "column_details": {
+    "problem": {
+      "dtype": "string",
+      "total": 900,
+      "null_count": 0,
+      "unique_count": 899,
+      "samples": [
+        "Consider the OECD countries whose total population was composed of at least 20% of foreign-born populations as of 2023 (according to the Observatory of Migration at the university of Oxford). Amongst ",
+        "There is a MMORPG game that was rumoured to have hit 50k online players after being up for only four hours when its vintage version was rereleased. There was a seasonal release for a doomsday game mod",
+        "Name the two songs that went viral on TikTok by the artist who (from 2016 to 2021) played drums in a band that won \"Best Holy Local Band\" in the Phoenix New Times Best of Phoenix 2006."
+      ]
+    },
+    "problem_category": {
+      "dtype": "string",
+      "total": 900,
+      "null_count": 0,
+      "unique_count": 17,
+      "samples": [
+        "Politics & Government",
+        "Media & Entertainment",
+        "Media & Entertainment"
+      ]
+    },
+    "answer": {
+      "dtype": "string",
+      "total": 900,
+      "null_count": 4,
+      "unique_count": 863,
+      "samples": [
+        "New Zealand",
+        "Combat, Skilling, Utility",
+        "I Can't Handle Change (2010), Christmas Kids (2010)"
+      ]
+    },
+    "answer_type": {
+      "dtype": "string",
+      "total": 900,
+      "null_count": 0,
+      "unique_count": 2,
+      "samples": [
+        "Single Answer",
+        "Set Answer",
+        "Set Answer"
+      ]
+    }
+  },
+  "answer_format": "set",
+  "answer_format_distribution": {
+    "Single Answer": 316,
+    "Set Answer": 584
+  },
+  "evaluation_method": "集合匹配 (Set Matching) — 评估「答全了没有」",
+  "evaluation_evidence": "答案为列表/集合格式, 每条记录答案项数 > 1",
+  "prompt_patterns": {
+    "instruction_verbs": {
+      "which": 606,
+      "list": 272,
+      "name": 128,
+      "who": 118,
+      "what": 108,
+      "find": 65,
+      "where": 48,
+      "identify": 45,
+      "when": 34,
+      "search": 33
+    },
+    "constraint_markers": {
+      "between": 145,
+      "only": 90,
+      "more than": 84,
+      "less than": 79,
+      "at least": 78,
+      "before": 33,
+      "within": 31,
+      "after": 26,
+      "including": 24,
+      "excluding": 18
+    },
+    "question_starters": {
+      "According": 193,
+      "Of": 90,
+      "Which": 77,
+      "Using": 55,
+      "In": 49,
+      "I'm": 37,
+      "I": 32,
+      "List": 30
+    },
+    "has_numbered_list": 10,
+    "has_example": 5,
+    "has_tool_hint": 172,
+    "multi_hop_indicators": 158,
+    "avg_questions_per_prompt": 1.02
+  },
+  "domain_distribution": {
+    "Politics & Government": 148,
+    "Media & Entertainment": 29,
+    "Education": 94,
+    "Geography": 95,
+    "Other": 65,
+    "Health": 92,
+    "Science": 90,
+    "Finance & Economics": 132,
+    "History": 44,
+    "Sports": 20,
+    "Travel": 36,
+    "Current Events": 3,
+    "Arts": 26,
+    "Technology": 22,
+    "Linguistics": 1,
+    "Biology": 2,
+    "Arts & Entertainment": 1
+  },
+  "text_stats": {
+    "avg_question_chars": 295.5,
+    "avg_answer_chars": 67.3,
+    "max_question_chars": 1007,
+    "min_question_chars": 49,
+    "total_chars": 326524
+  },
+  "sample_entries": [
+    {
+      "problem": "Consider the OECD countries whose total population was composed of at least 20% of foreign-born populations as of 2023 (according to the Observatory of Migration at the university of Oxford). Amongst them, which country saw their overall criminality score increase by at least +0.2 point between 2021 and 2023 and their resilience score decrease by more than 0.3 between these same dates (according to the Organised Crime Index)?",
+      "problem_category": "Politics & Government",
+      "answer": "New Zealand",
+      "answer_type": "Single Answer"
+    },
+    {
+      "problem": "There is a MMORPG game that was rumoured to have hit 50k online players after being up for only four hours when its vintage version was rereleased. There was a seasonal release for a doomsday game mode scenario, the goal in this mode being to become the last man standing. In this game mode powerful buffs can be obtained through killing monsters or through other players, these are split into three categories, what are those categories?",
+      "problem_category": "Media & Entertainment",
+      "answer": "Combat, Skilling, Utility",
+      "answer_type": "Set Answer"
+    },
+    {
+      "problem": "Name the two songs that went viral on TikTok by the artist who (from 2016 to 2021) played drums in a band that won \"Best Holy Local Band\" in the Phoenix New Times Best of Phoenix 2006.",
+      "problem_category": "Media & Entertainment",
+      "answer": "I Can't Handle Change (2010), Christmas Kids (2010)",
+      "answer_type": "Set Answer"
+    }
+  ]
+}

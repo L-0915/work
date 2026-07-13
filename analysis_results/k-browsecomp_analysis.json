@@ -1,0 +1,119 @@
+{
+  "dataset_id": "prometheus-eval/k-browsecomp",
+  "name": "K-BrowseComp",
+  "year": 2026,
+  "publisher": "prometheus-eval",
+  "url": "https://huggingface.co/datasets/prometheus-eval/k-browsecomp",
+  "num_rows": 300,
+  "columns": [
+    "problem",
+    "answer",
+    "type",
+    "category"
+  ],
+  "column_details": {
+    "problem": {
+      "dtype": "string",
+      "total": 300,
+      "null_count": 0,
+      "unique_count": 299,
+      "samples": [
+        "한국 영화 중 감독이 신인 감독상을 수상하고 조연 여자 배우가 신인 여우상을 수상한 적이 있으며, 출연한 여배우 중 연예 예능에서 진행을 맡은 적이 있는 여배우가 있고, 네이버 영화 평점을 10년 넘게 9점을 유지하고 있으며 뮤지컬화 된 적이 있는 영화는?",
+        "KPop 걸그룹 중 2015 년에 드라마에 배우로 출연한 적이 있는 멤버와, 가상 결혼 예능에 출연한 적이 있는 멤버가 있으며, 손가락을 맞대는 안무로 유행을 일으켰지만 3집까지 지상파 가요 순위 프로그램 1등을 수상하지 못한 걸그룹은?",
+        "대한민국 지역 중 4개 미만의 호수를 가지고 있는 일반시로, 지하 심부에서 마그마가 냉각되어 형성되는 조립질 조직의 암석으로 만들어진 울타리 같이 생겼다고 이름이 붙여진 지형이 있으며, 석산의 정상에서 현악기 중 하나를 타는 것 같다고 이름이 붙여진 정자가 있는 시에서 20km 이하로 떨어진 지역에는 몽골 제국의 침입으로 소실된 적이 있는 사찰이 존재한다."
+      ]
+    },
+    "answer": {
+      "dtype": "string",
+      "total": 300,
+      "null_count": 0,
+      "unique_count": 298,
+      "samples": [
+        "하모니",
+        "쥬얼리",
+        "낙산사"
+      ]
+    },
+    "type": {
+      "dtype": "string",
+      "total": 300,
+      "null_count": 0,
+      "unique_count": 2,
+      "samples": [
+        "parallel",
+        "parallel",
+        "parallel"
+      ]
+    },
+    "category": {
+      "dtype": "string",
+      "total": 300,
+      "null_count": 0,
+      "unique_count": 11,
+      "samples": [
+        "엔터테인먼트/미디어",
+        "엔터테인먼트/미디어",
+        "교통/장소/지역"
+      ]
+    }
+  },
+  "answer_format": "single_string",
+  "answer_format_distribution": {
+    "single_string": 169,
+    "set": 6,
+    "number": 24,
+    "structured": 1
+  },
+  "evaluation_method": "LLM-as-Judge — 语义等价判断",
+  "evaluation_evidence": "答案较长/开放, 需要 LLM Judge 判断语义等价",
+  "prompt_patterns": {
+    "instruction_verbs": {},
+    "constraint_markers": {},
+    "question_starters": {
+      "다음": 66,
+      "이": 20,
+      "2026년": 10,
+      "다음을": 7,
+      "대한민국": 6,
+      "다음에": 5,
+      "한국": 4,
+      "대한민국의": 4
+    },
+    "has_numbered_list": 38,
+    "has_example": 0,
+    "has_tool_hint": 0,
+    "multi_hop_indicators": 0,
+    "avg_questions_per_prompt": 1.0
+  },
+  "domain_distribution": {
+    "parallel": 140,
+    "multi-hop": 160
+  },
+  "text_stats": {
+    "avg_question_chars": 174.5,
+    "avg_answer_chars": 7.4,
+    "max_question_chars": 1315,
+    "min_question_chars": 27,
+    "total_chars": 54557
+  },
+  "sample_entries": [
+    {
+      "problem": "한국 영화 중 감독이 신인 감독상을 수상하고 조연 여자 배우가 신인 여우상을 수상한 적이 있으며, 출연한 여배우 중 연예 예능에서 진행을 맡은 적이 있는 여배우가 있고, 네이버 영화 평점을 10년 넘게 9점을 유지하고 있으며 뮤지컬화 된 적이 있는 영화는?",
+      "answer": "하모니",
+      "type": "parallel",
+      "category": "엔터테인먼트/미디어"
+    },
+    {
+      "problem": "KPop 걸그룹 중 2015 년에 드라마에 배우로 출연한 적이 있는 멤버와, 가상 결혼 예능에 출연한 적이 있는 멤버가 있으며, 손가락을 맞대는 안무로 유행을 일으켰지만 3집까지 지상파 가요 순위 프로그램 1등을 수상하지 못한 걸그룹은?",
+      "answer": "쥬얼리",
+      "type": "parallel",
+      "category": "엔터테인먼트/미디어"
+    },
+    {
+      "problem": "대한민국 지역 중 4개 미만의 호수를 가지고 있는 일반시로, 지하 심부에서 마그마가 냉각되어 형성되는 조립질 조직의 암석으로 만들어진 울타리 같이 생겼다고 이름이 붙여진 지형이 있으며, 석산의 정상에서 현악기 중 하나를 타는 것 같다고 이름이 붙여진 정자가 있는 시에서 20km 이하로 떨어진 지역에는 몽골 제국의 침입으로 소실된 적이 있는 사찰이 존재한다. 이 사찰의 이름은?",
+      "answer": "낙산사",
+      "type": "parallel",
+      "category": "교통/장소/지역"
+    }
+  ]
+}

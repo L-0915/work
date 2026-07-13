@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500"
+     font-family="system-ui, -apple-system, sans-serif">
+<rect width="900" height="500" fill="#ffffff"/>
+
+<text x="450.0" y="30" font-size="18" fill="#1a1a2e" text-anchor="middle" font-weight="bold">答案格式分布 (基于真实 answer 数据)</text>
+<text x="140.0" y="415" font-size="9" fill="#1a1a2e" text-anchor="middle">DeepSearchQA</text>
+<rect x="220" y="361.1650485436893" width="80" height="38.83495145631068" rx="2" fill="#10b981"/>
+<text x="260.0" y="380.58252427184465" font-size="9" fill="#fff" text-anchor="middle">16%</text>
+<rect x="220" y="351.75970873786406" width="80" height="9.405339805825243" rx="2" fill="#f59e0b"/>
+<rect x="220" y="339.32038834951453" width="80" height="12.439320388349515" rx="2" fill="#3b82f6"/>
+<text x="260.0" y="415" font-size="9" fill="#1a1a2e" text-anchor="middle">FRAMES</text>
+<rect x="340" y="150.0" width="80" height="250.0" rx="2" fill="#8b5cf6"/>
+<text x="380.0" y="275.0" font-size="9" fill="#fff" text-anchor="middle">100%</text>
+<text x="380.0" y="415" font-size="9" fill="#1a1a2e" text-anchor="middle">DRACO</text>
+<rect x="460" y="337.5" width="80" height="62.5" rx="2" fill="#10b981"/>
+<text x="500.0" y="368.75" font-size="9" fill="#fff" text-anchor="middle">25%</text>
+<rect x="460" y="302.5" width="80" height="35.0" rx="2" fill="#f59e0b"/>
+<text x="500.0" y="320.0" font-size="9" fill="#fff" text-anchor="middle">14%</text>
+<rect x="460" y="297.5" width="80" height="5.0" rx="2" fill="#3b82f6"/>
+<rect x="460" y="150.0" width="80" height="147.5" rx="2" fill="#8b5cf6"/>
+<text x="500.0" y="223.75" font-size="9" fill="#fff" text-anchor="middle">59%</text>
+<text x="500.0" y="415" font-size="9" fill="#1a1a2e" text-anchor="middle">PhySciBench</text>
+<rect x="580" y="259.16666666666663" width="80" height="140.83333333333334" rx="2" fill="#10b981"/>
+<text x="620.0" y="329.5833333333333" font-size="9" fill="#fff" text-anchor="middle">56%</text>
+<rect x="580" y="254.16666666666663" width="80" height="5.0" rx="2" fill="#f59e0b"/>
+<rect x="580" y="234.16666666666666" width="80" height="20.0" rx="2" fill="#3b82f6"/>
+<rect x="580" y="233.33333333333331" width="80" height="0.8333333333333334" rx="2" fill="#8b5cf6"/>
+<text x="620.0" y="415" font-size="9" fill="#1a1a2e" text-anchor="middle">K-BrowseComp</text>
+<rect x="750" y="80" width="14" height="14" rx="2" fill="#10b981"/>
+<text x="770" y="91" font-size="10" fill="#1a1a2e" text-anchor="start">字符串</text>
+<rect x="750" y="105" width="14" height="14" rx="2" fill="#f59e0b"/>
+<text x="770" y="116" font-size="10" fill="#1a1a2e" text-anchor="start">集合</text>
+<rect x="750" y="130" width="14" height="14" rx="2" fill="#3b82f6"/>
+<text x="770" y="141" font-size="10" fill="#1a1a2e" text-anchor="start">数值</text>
+<rect x="750" y="155" width="14" height="14" rx="2" fill="#8b5cf6"/>
+<text x="770" y="166" font-size="10" fill="#1a1a2e" text-anchor="start">结构化</text>
+</svg>

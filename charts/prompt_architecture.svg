@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 780"
+     width="1100" height="780"
+     font-family="system-ui, -apple-system, sans-serif">
+  <rect width="1100" height="780" fill="#ffffff"/>
+
+  <text x="550.0" y="30" font-size="20" fill="#1a1a2e" text-anchor="middle" font-weight="bold">推理 Prompt vs 评估 Prompt 架构对比</text>
+  <rect x="30" y="50" width="500" height="700" rx="10" fill="#eff6ff"/>
+  <text x="280.0" y="75" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="bold">推理 Prompt (Inference)</text>
+  <text x="280.0" y="95" font-size="11" fill="#6b7280" text-anchor="middle">驱动 Agent 行动: 搜索 -&gt; 浏览 -&gt; 提取 -&gt; 综合 -&gt; 回答</text>
+  <rect x="45" y="110" width="470" height="45" rx="6" fill="#dbeafe"/>
+  <text x="60" y="128" font-size="12" fill="#1e3a5f" text-anchor="start" font-weight="bold">身份声明</text>
+  <text x="60" y="145" font-size="10" fill="#334155" text-anchor="start">「Web Information Seeking Master」</text>
+  <rect x="45" y="170" width="470" height="45" rx="6" fill="#bfdbfe"/>
+  <text x="60" y="188" font-size="12" fill="#1e3a5f" text-anchor="start" font-weight="bold">行为原则</text>
+  <text x="60" y="205" font-size="10" fill="#334155" text-anchor="start">持续性 + 反复验证 + 注意细节</text>
+  <rect x="45" y="230" width="470" height="45" rx="6" fill="#93c5fd"/>
+  <text x="60" y="248" font-size="12" fill="#1e3a5f" text-anchor="start" font-weight="bold">工具定义</text>
+  <text x="60" y="265" font-size="10" fill="#334155" text-anchor="start">search / visit / Python / scholar (JSON Schema)</text>
+  <rect x="45" y="310" width="470" height="45" rx="6" fill="#60a5fa"/>
+  <text x="60" y="328" font-size="12" fill="#1e3a5f" text-anchor="start" font-weight="bold">输出格式</text>
+  <text x="60" y="345" font-size="10" fill="#334155" text-anchor="start">&lt;think&gt; / &lt;tool_call&gt; / &lt;tool_response&gt; / &lt;answer&gt;</text>
+  <rect x="45" y="390" width="470" height="45" rx="6" fill="#3b82f6"/>
+  <text x="60" y="408" font-size="12" fill="#1e3a5f" text-anchor="start" font-weight="bold">上下文管理</text>
+  <text x="60" y="425" font-size="10" fill="#334155" text-anchor="start">摘要触发 + Token 裁剪 + 降级策略 (Stop Sequences)</text>
+  <rect x="45" y="470" width="470" height="45" rx="6" fill="#2563eb"/>
+  <text x="60" y="488" font-size="12" fill="#1e3a5f" text-anchor="start" font-weight="bold">上下文范围</text>
+  <text x="60" y="505" font-size="10" fill="#334155" text-anchor="start">管理 100K+ token 流式工具调用结果</text>
+  <rect x="45" y="530" width="470" height="45" rx="6" fill="#1d4ed8"/>
+  <text x="60" y="548" font-size="12" fill="#1e3a5f" text-anchor="start" font-weight="bold">优化方式</text>
+  <text x="60" y="565" font-size="10" fill="#334155" text-anchor="start">遗传式 Prompt 进化 (GEPA) + RL 微调 (GRPO)</text>
+  <rect x="45" y="590" width="470" height="45" rx="6" fill="#1e3a5f"/>
+  <text x="60" y="608" font-size="12" fill="#1e3a5f" text-anchor="start" font-weight="bold">复杂度趋势</text>
+  <text x="60" y="625" font-size="10" fill="#334155" text-anchor="start">越来越简单 (Bitter Lesson 效应)</text>
+  <rect x="45" y="650" width="470" height="45" rx="6" fill="#1e3a5f"/>
+  <text x="60" y="668" font-size="12" fill="#1e3a5f" text-anchor="start" font-weight="bold">失败模式</text>
+  <text x="60" y="685" font-size="10" fill="#334155" text-anchor="start">上下文腐烂 / 认知窒息 / 噪声污染 / 幻觉工具调用</text>
+  <rect x="570" y="50" width="500" height="700" rx="10" fill="#fef2f2"/>
+  <text x="820.0" y="75" font-size="16" fill="#dc2626" text-anchor="middle" font-weight="bold">评估 Prompt (Evaluation)</text>
+  <text x="820.0" y="95" font-size="11" fill="#6b7280" text-anchor="middle">驱动 Judge 评分: 输入 -&gt; 标准 -&gt; 判断 -&gt; 输出</text>
+  <rect x="585" y="110" width="470" height="45" rx="6" fill="#fecaca"/>
+  <text x="600" y="128" font-size="12" fill="#7f1d1d" text-anchor="start" font-weight="bold">角色定义</text>
+  <text x="600" y="145" font-size="10" fill="#450a0a" text-anchor="start">「You are an evaluation assistant」</text>
+  <rect x="585" y="170" width="470" height="45" rx="6" fill="#fca5a5"/>
+  <text x="600" y="188" font-size="12" fill="#7f1d1d" text-anchor="start" font-weight="bold">输入结构</text>
+  <text x="600" y="205" font-size="10" fill="#450a0a" text-anchor="start">question + correct_answer + prediction 三要素</text>
+  <rect x="585" y="230" width="470" height="45" rx="6" fill="#f87171"/>
+  <text x="600" y="248" font-size="12" fill="#7f1d1d" text-anchor="start" font-weight="bold">评分标准</text>
+  <text x="600" y="265" font-size="10" fill="#450a0a" text-anchor="start">语义等价 / 完整性 / 准确性 / 置信度</text>
+  <rect x="585" y="310" width="470" height="45" rx="6" fill="#ef4444"/>
+  <text x="600" y="328" font-size="12" fill="#7f1d1d" text-anchor="start" font-weight="bold">Few-shot 校准</text>
+  <text x="600" y="345" font-size="10" fill="#450a0a" text-anchor="start">Obama 孩子例子等具体示例消除歧义</text>
+  <rect x="585" y="390" width="470" height="45" rx="6" fill="#dc2626"/>
+  <text x="600" y="408" font-size="12" fill="#7f1d1d" text-anchor="start" font-weight="bold">输出约束</text>
+  <text x="600" y="425" font-size="10" fill="#450a0a" text-anchor="start">只输出 "Correct"/"Incorrect" 或结构化 JSON</text>
+  <rect x="585" y="470" width="470" height="45" rx="6" fill="#b91c1c"/>
+  <text x="600" y="488" font-size="12" fill="#7f1d1d" text-anchor="start" font-weight="bold">评分等级</text>
+  <text x="600" y="505" font-size="10" fill="#450a0a" text-anchor="start">二级 (Correct/Incorrect) / 三级 (+NOT_ATTEMPTED) / 多级</text>
+  <rect x="585" y="530" width="470" height="45" rx="6" fill="#991b1b"/>
+  <text x="600" y="548" font-size="12" fill="#7f1d1d" text-anchor="start" font-weight="bold">优化方式</text>
+  <text x="600" y="565" font-size="10" fill="#450a0a" text-anchor="start">人类专家 Rubric 校准 + ELO 锦标赛对比</text>
+  <rect x="585" y="590" width="470" height="45" rx="6" fill="#7f1d1d"/>
+  <text x="600" y="608" font-size="12" fill="#7f1d1d" text-anchor="start" font-weight="bold">复杂度趋势</text>
+  <text x="600" y="625" font-size="10" fill="#450a0a" text-anchor="start">越来越复杂 (多轴 Rubric -&gt; Claim-Graph -&gt; 过程评估)</text>
+  <rect x="585" y="650" width="470" height="45" rx="6" fill="#7f1d1d"/>
+  <text x="600" y="668" font-size="12" fill="#7f1d1d" text-anchor="start" font-weight="bold">失败模式</text>
+  <text x="600" y="685" font-size="10" fill="#450a0a" text-anchor="start">隐性需求遗漏 / Judge 偏见 / Reward Hacking</text>
+  <line x1="530" y1="132" x2="570" y2="132" stroke="#e8ecf1" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="530" y1="209" x2="570" y2="209" stroke="#e8ecf1" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="530" y1="286" x2="570" y2="286" stroke="#e8ecf1" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="530" y1="363" x2="570" y2="363" stroke="#e8ecf1" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="530" y1="440" x2="570" y2="440" stroke="#e8ecf1" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="530" y1="517" x2="570" y2="517" stroke="#e8ecf1" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="530" y1="594" x2="570" y2="594" stroke="#e8ecf1" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="530" y1="671" x2="570" y2="671" stroke="#e8ecf1" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="530" y1="748" x2="570" y2="748" stroke="#e8ecf1" stroke-width="1" stroke-dasharray="4,4"/>
+</svg>

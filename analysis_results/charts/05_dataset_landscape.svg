@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" width="900" height="550"
+     font-family="system-ui, -apple-system, sans-serif">
+<rect width="900" height="550" fill="#ffffff"/>
+
+<text x="450.0" y="25" font-size="16" fill="#1a1a2e" text-anchor="middle" font-weight="bold">数据集全景图 (X=样本量, Y=Prompt复杂度, 颜色=答案格式)</text>
+<rect x="80" y="50" width="760" height="440" rx="4" fill="#fafbfc"/>
+<line x1="80" y1="50.0" x2="840" y2="50.0" stroke="#e8ecf1" stroke-width="0.5"/>
+<line x1="80.0" y1="50" x2="80.0" y2="490" stroke="#e8ecf1" stroke-width="0.5"/>
+<line x1="80" y1="138.0" x2="840" y2="138.0" stroke="#e8ecf1" stroke-width="0.5"/>
+<line x1="232.0" y1="50" x2="232.0" y2="490" stroke="#e8ecf1" stroke-width="0.5"/>
+<line x1="80" y1="226.0" x2="840" y2="226.0" stroke="#e8ecf1" stroke-width="0.5"/>
+<line x1="384.0" y1="50" x2="384.0" y2="490" stroke="#e8ecf1" stroke-width="0.5"/>
+<line x1="80" y1="314.0" x2="840" y2="314.0" stroke="#e8ecf1" stroke-width="0.5"/>
+<line x1="536.0" y1="50" x2="536.0" y2="490" stroke="#e8ecf1" stroke-width="0.5"/>
+<line x1="80" y1="402.0" x2="840" y2="402.0" stroke="#e8ecf1" stroke-width="0.5"/>
+<line x1="688.0" y1="50" x2="688.0" y2="490" stroke="#e8ecf1" stroke-width="0.5"/>
+<line x1="80" y1="490.0" x2="840" y2="490.0" stroke="#e8ecf1" stroke-width="0.5"/>
+<line x1="840.0" y1="50" x2="840.0" y2="490" stroke="#e8ecf1" stroke-width="0.5"/>
+<circle cx="675.4877526700652" cy="368.11005906065435" r="8" fill="#f59e0b" stroke="#fff" stroke-width="1.5"/>
+<text x="686.4877526700652" y="371.11005906065435" font-size="8" fill="#6b7280" text-anchor="start">DeepSearchQA</text>
+<circle cx="657.3113882132377" cy="425.9407518515046" r="6" fill="#10b981" stroke="#fff" stroke-width="1.5"/>
+<text x="666.3113882132377" y="428.9407518515046" font-size="8" fill="#6b7280" text-anchor="start">FRAMES</text>
+<circle cx="222.8053867789218" cy="159.43283022405552" r="8" fill="#8b5cf6" stroke="#fff" stroke-width="1.5"/>
+<text x="233.8053867789218" y="162.43283022405552" font-size="8" fill="#6b7280" text-anchor="start">DRACO</text>
+<circle cx="365.6107735578436" cy="50" r="8" fill="#8b5cf6" stroke="#fff" stroke-width="1.5"/>
+<text x="376.6107735578436" y="53" font-size="8" fill="#6b7280" text-anchor="start">PhySciBench</text>
+<circle cx="449.1465697244936" cy="418.0209993437705" r="8" fill="#10b981" stroke="#fff" stroke-width="1.5"/>
+<text x="460.1465697244936" y="421.0209993437705" font-size="8" fill="#6b7280" text-anchor="start">K-BrowseComp</text>
+<text x="80" y="520" font-size="10" fill="#9ca3af" text-anchor="middle">样本量 (log scale)</text>
+</svg>

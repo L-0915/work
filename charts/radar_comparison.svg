@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"
+     width="1200" height="800"
+     font-family="system-ui, -apple-system, sans-serif">
+  <rect width="1200" height="800" fill="#ffffff"/>
+
+  <text x="600.0" y="30" font-size="20" fill="#1a1a2e" text-anchor="middle" font-weight="bold">Benchmark 多维度能力雷达对比</text>
+  <text x="160" y="55" font-size="15" fill="#1a1a2e" text-anchor="middle" font-weight="bold">基础能力</text>
+  <polygon points="160,179 180,193 172,217 148,217 140,193" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <polygon points="160,158 200,187 185,234 135,234 120,187" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <polygon points="160,136 221,180 197,252 123,252 99,180" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <polygon points="160,115 241,174 210,269 110,269 79,174" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="160" y1="200" x2="160.0" y2="110.75" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="160.0" y="90.0" font-size="9" fill="#6b7280" text-anchor="middle">深度推理</text>
+  <line x1="160" y1="200" x2="244.88179407934246" y2="172.42023325203596" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="264.6162167924669" y="166.00813061875579" font-size="9" fill="#6b7280" text-anchor="middle">多步检索</text>
+  <line x1="160" y1="200" x2="212.45983376710322" y2="272.2047667479641" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="224.65637775217203" y="288.9918693812442" font-size="9" fill="#6b7280" text-anchor="middle">工具使用</text>
+  <line x1="160" y1="200" x2="107.54016623289678" y2="272.2047667479641" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="95.34362224782797" y="288.9918693812442" font-size="9" fill="#6b7280" text-anchor="middle">知识覆盖</text>
+  <line x1="160" y1="200" x2="75.11820592065754" y2="172.42023325203596" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="55.3837832075331" y="166.00813061875579" font-size="9" fill="#6b7280" text-anchor="middle">综合能力</text>
+  <polygon points="160,158 209,184 195,248 130,241 111,184" fill="#3b82f6" fill-opacity="0.25" stroke="#3b82f6" stroke-width="2"/>
+  <polygon points="160,149 217,182 180,228 125,248 111,184" fill="#3b82f6" fill-opacity="0.25" stroke="#3b82f6" stroke-width="2"/>
+  <polygon points="160,115 192,189 180,228 110,269 95,179" fill="#8b5cf6" fill-opacity="0.25" stroke="#8b5cf6" stroke-width="2"/>
+  <polygon points="160,124 233,176 200,255 120,255 87,176" fill="#ef4444" fill-opacity="0.25" stroke="#ef4444" stroke-width="2"/>
+  <rect x="45" y="340" width="14" height="14" rx="2" fill="#3b82f6"/>
+  <text x="63" y="351" font-size="9" fill="#1a1a2e" text-anchor="start">GAIA</text>
+  <rect x="165" y="340" width="14" height="14" rx="2" fill="#3b82f6"/>
+  <text x="183" y="351" font-size="9" fill="#1a1a2e" text-anchor="start">FRAMES</text>
+  <rect x="45" y="360" width="14" height="14" rx="2" fill="#8b5cf6"/>
+  <text x="63" y="371" font-size="9" fill="#1a1a2e" text-anchor="start">HLE</text>
+  <rect x="165" y="360" width="14" height="14" rx="2" fill="#ef4444"/>
+  <text x="183" y="371" font-size="9" fill="#1a1a2e" text-anchor="start">DeepSearchQA</text>
+  <text x="420" y="55" font-size="15" fill="#1a1a2e" text-anchor="middle" font-weight="bold">浏览搜索</text>
+  <polygon points="420,179 440,193 432,217 408,217 400,193" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <polygon points="420,158 460,187 445,234 395,234 380,187" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <polygon points="420,136 481,180 457,252 383,252 359,180" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <polygon points="420,115 501,174 470,269 370,269 339,174" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="420" y1="200" x2="420.0" y2="110.75" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="420.0" y="90.0" font-size="9" fill="#6b7280" text-anchor="middle">搜索持久性</text>
+  <line x1="420" y1="200" x2="504.88179407934246" y2="172.42023325203596" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="524.6162167924668" y="166.00813061875579" font-size="9" fill="#6b7280" text-anchor="middle">多步导航</text>
+  <line x1="420" y1="200" x2="472.45983376710325" y2="272.2047667479641" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="484.65637775217203" y="288.9918693812442" font-size="9" fill="#6b7280" text-anchor="middle">事实核查</text>
+  <line x1="420" y1="200" x2="367.5401662328968" y2="272.2047667479641" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="355.34362224782797" y="288.9918693812442" font-size="9" fill="#6b7280" text-anchor="middle">策略创造性</text>
+  <line x1="420" y1="200" x2="335.11820592065754" y2="172.42023325203596" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="315.3837832075331" y="166.00813061875579" font-size="9" fill="#6b7280" text-anchor="middle">答案精确性</text>
+  <polygon points="420,124 493,176 460,255 375,262 363,182" fill="#ef4444" fill-opacity="0.25" stroke="#ef4444" stroke-width="2"/>
+  <polygon points="420,140 477,182 455,248 390,241 347,176" fill="#10b981" fill-opacity="0.25" stroke="#10b981" stroke-width="2"/>
+  <polygon points="420,124 485,179 460,255 380,255 363,182" fill="#f59e0b" fill-opacity="0.25" stroke="#f59e0b" stroke-width="2"/>
+  <polygon points="420,124 493,176 470,269 375,262 363,182" fill="#ef4444" fill-opacity="0.25" stroke="#ef4444" stroke-width="2"/>
+  <rect x="305" y="340" width="14" height="14" rx="2" fill="#ef4444"/>
+  <text x="323" y="351" font-size="9" fill="#1a1a2e" text-anchor="start">BrowseComp</text>
+  <rect x="425" y="340" width="14" height="14" rx="2" fill="#10b981"/>
+  <text x="443" y="351" font-size="9" fill="#1a1a2e" text-anchor="start">BrowseComp-Plus</text>
+  <rect x="305" y="360" width="14" height="14" rx="2" fill="#f59e0b"/>
+  <text x="323" y="371" font-size="9" fill="#1a1a2e" text-anchor="start">MM-BrowseComp</text>
+  <rect x="425" y="360" width="14" height="14" rx="2" fill="#ef4444"/>
+  <text x="443" y="371" font-size="9" fill="#1a1a2e" text-anchor="start">LiveBrowseComp</text>
+  <text x="690" y="55" font-size="15" fill="#1a1a2e" text-anchor="middle" font-weight="bold">报告评估</text>
+  <polygon points="690,179 710,193 702,217 678,217 670,193" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <polygon points="690,158 730,187 715,234 665,234 650,187" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <polygon points="690,136 751,180 727,252 653,252 629,180" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <polygon points="690,115 771,174 740,269 640,269 609,174" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="690" y1="200" x2="690.0" y2="110.75" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="690.0" y="90.0" font-size="9" fill="#6b7280" text-anchor="middle">结构连贯性</text>
+  <line x1="690" y1="200" x2="774.8817940793424" y2="172.42023325203596" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="794.6162167924668" y="166.00813061875579" font-size="9" fill="#6b7280" text-anchor="middle">引用准确性</text>
+  <line x1="690" y1="200" x2="742.4598337671032" y2="272.2047667479641" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="754.656377752172" y="288.9918693812442" font-size="9" fill="#6b7280" text-anchor="middle">全面性</text>
+  <line x1="690" y1="200" x2="637.5401662328968" y2="272.2047667479641" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="625.343622247828" y="288.9918693812442" font-size="9" fill="#6b7280" text-anchor="middle">分析深度</text>
+  <line x1="690" y1="200" x2="605.1182059206576" y2="172.42023325203596" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="585.383783207533" y="166.00813061875579" font-size="9" fill="#6b7280" text-anchor="middle">可验证性</text>
+  <polygon points="690,132 763,176 725,248 655,248 617,176" fill="#6366f1" fill-opacity="0.25" stroke="#6366f1" stroke-width="2"/>
+  <polygon points="690,124 763,176 735,262 645,262 625,179" fill="#ef4444" fill-opacity="0.25" stroke="#ef4444" stroke-width="2"/>
+  <polygon points="690,132 755,179 735,262 650,255 625,179" fill="#ef4444" fill-opacity="0.25" stroke="#ef4444" stroke-width="2"/>
+  <polygon points="690,140 722,189 730,255 665,234 641,184" fill="#ec4899" fill-opacity="0.25" stroke="#ec4899" stroke-width="2"/>
+  <rect x="575" y="340" width="14" height="14" rx="2" fill="#6366f1"/>
+  <text x="593" y="351" font-size="9" fill="#1a1a2e" text-anchor="start">ReportBench</text>
+  <rect x="695" y="340" width="14" height="14" rx="2" fill="#ef4444"/>
+  <text x="713" y="351" font-size="9" fill="#1a1a2e" text-anchor="start">DRB2</text>
+  <rect x="575" y="360" width="14" height="14" rx="2" fill="#ef4444"/>
+  <text x="593" y="371" font-size="9" fill="#1a1a2e" text-anchor="start">DRACO</text>
+  <rect x="695" y="360" width="14" height="14" rx="2" fill="#ec4899"/>
+  <text x="713" y="371" font-size="9" fill="#1a1a2e" text-anchor="start">DeepConsult</text>
+  <text x="990" y="55" font-size="15" fill="#1a1a2e" text-anchor="middle" font-weight="bold">领域特化</text>
+  <polygon points="990,179 1010,193 1002,217 978,217 970,193" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <polygon points="990,158 1030,187 1015,234 965,234 950,187" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <polygon points="990,136 1051,180 1027,252 953,252 929,180" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <polygon points="990,115 1071,174 1040,269 940,269 909,174" fill="none" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="990" y1="200" x2="990.0" y2="110.75" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="990.0" y="90.0" font-size="9" fill="#6b7280" text-anchor="middle">领域知识</text>
+  <line x1="990" y1="200" x2="1074.8817940793424" y2="172.42023325203596" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="1094.616216792467" y="166.00813061875579" font-size="9" fill="#6b7280" text-anchor="middle">专业工具</text>
+  <line x1="990" y1="200" x2="1042.4598337671032" y2="272.2047667479641" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="1054.6563777521721" y="288.9918693812442" font-size="9" fill="#6b7280" text-anchor="middle">数据格式</text>
+  <line x1="990" y1="200" x2="937.5401662328968" y2="272.2047667479641" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="925.343622247828" y="288.9918693812442" font-size="9" fill="#6b7280" text-anchor="middle">时效性</text>
+  <line x1="990" y1="200" x2="905.1182059206576" y2="172.42023325203596" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="885.383783207533" y="166.00813061875579" font-size="9" fill="#6b7280" text-anchor="middle">客观性</text>
+  <polygon points="990,124 1030,187 1025,248 945,262 933,182" fill="#10b981" fill-opacity="0.25" stroke="#10b981" stroke-width="2"/>
+  <polygon points="990,115 1055,179 1030,255 960,241 909,174" fill="#ef4444" fill-opacity="0.25" stroke="#ef4444" stroke-width="2"/>
+  <polygon points="990,115 1022,189 1015,234 960,241 917,176" fill="#ef4444" fill-opacity="0.25" stroke="#ef4444" stroke-width="2"/>
+  <polygon points="990,158 1030,187 1015,234 960,241 933,182" fill="#10b981" fill-opacity="0.25" stroke="#10b981" stroke-width="2"/>
+  <rect x="875" y="340" width="14" height="14" rx="2" fill="#10b981"/>
+  <text x="893" y="351" font-size="9" fill="#1a1a2e" text-anchor="start">FinSearchComp</text>
+  <rect x="995" y="340" width="14" height="14" rx="2" fill="#ef4444"/>
+  <text x="1013" y="351" font-size="9" fill="#1a1a2e" text-anchor="start">PhySciBench</text>
+  <rect x="875" y="360" width="14" height="14" rx="2" fill="#ef4444"/>
+  <text x="893" y="371" font-size="9" fill="#1a1a2e" text-anchor="start">KnowledgeBerg</text>
+  <rect x="995" y="360" width="14" height="14" rx="2" fill="#10b981"/>
+  <text x="1013" y="371" font-size="9" fill="#1a1a2e" text-anchor="start">WideSearch</text>
+</svg>

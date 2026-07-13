@@ -1,0 +1,127 @@
+{
+  "total_datasets": 5,
+  "total_samples": 2324,
+  "by_year": {
+    "2026": 4,
+    "2024": 1
+  },
+  "by_eval_method": {
+    "集合匹配 (Set Matching)": 1,
+    "LLM-as-Judge": 3,
+    "Rubric 评分": 1
+  },
+  "answer_format_comparison": {
+    "DeepSearchQA": {
+      "format": "set",
+      "distribution": {
+        "Single Answer": 316,
+        "Set Answer": 584
+      }
+    },
+    "FRAMES": {
+      "format": "single_string",
+      "distribution": {
+        "single_string": 128,
+        "set": 31,
+        "number": 41,
+        "structured": 0
+      }
+    },
+    "DRACO": {
+      "format": "structured",
+      "distribution": {
+        "single_string": 0,
+        "set": 0,
+        "number": 0,
+        "structured": 100
+      }
+    },
+    "PhySciBench": {
+      "format": "structured",
+      "distribution": {
+        "single_string": 50,
+        "set": 28,
+        "number": 4,
+        "structured": 118
+      }
+    },
+    "K-BrowseComp": {
+      "format": "single_string",
+      "distribution": {
+        "single_string": 169,
+        "set": 6,
+        "number": 24,
+        "structured": 1
+      }
+    }
+  },
+  "prompt_complexity_ranking": [
+    {
+      "name": "PhySciBench",
+      "avg_question_len": 1066.7,
+      "multi_hop_rate": 9.0,
+      "avg_sub_questions": 1.16
+    },
+    {
+      "name": "DRACO",
+      "avg_question_len": 801.4,
+      "multi_hop_rate": 2.0,
+      "avg_sub_questions": 1.2
+    },
+    {
+      "name": "DeepSearchQA",
+      "avg_question_len": 295.5,
+      "multi_hop_rate": 17.6,
+      "avg_sub_questions": 1.02
+    },
+    {
+      "name": "K-BrowseComp",
+      "avg_question_len": 174.5,
+      "multi_hop_rate": 0.0,
+      "avg_sub_questions": 1.0
+    },
+    {
+      "name": "FRAMES",
+      "avg_question_len": 155.3,
+      "multi_hop_rate": 3.4,
+      "avg_sub_questions": 1.02
+    }
+  ],
+  "dataset_size_vs_complexity": [
+    {
+      "name": "DeepSearchQA",
+      "year": 2026,
+      "samples": 900,
+      "avg_question_len": 295.5,
+      "answer_format": "set"
+    },
+    {
+      "name": "FRAMES",
+      "year": 2024,
+      "samples": 824,
+      "avg_question_len": 155.3,
+      "answer_format": "single_string"
+    },
+    {
+      "name": "DRACO",
+      "year": 2026,
+      "samples": 100,
+      "avg_question_len": 801.4,
+      "answer_format": "structured"
+    },
+    {
+      "name": "PhySciBench",
+      "year": 2026,
+      "samples": 200,
+      "avg_question_len": 1066.7,
+      "answer_format": "structured"
+    },
+    {
+      "name": "K-BrowseComp",
+      "year": 2026,
+      "samples": 300,
+      "avg_question_len": 174.5,
+      "answer_format": "single_string"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750"
+     width="1200" height="750"
+     font-family="system-ui, -apple-system, sans-serif">
+  <rect width="1200" height="750" fill="#ffffff"/>
+
+  <text x="600.0" y="35" font-size="20" fill="#1a1a2e" text-anchor="middle" font-weight="bold">Deep Research Benchmark 时间线 (2024-2026)</text>
+  <rect x="80" y="55" width="310" height="680" rx="8" fill="#f8fafc"/>
+  <text x="235.0" y="78" font-size="28" fill="#3b82f6" text-anchor="middle" font-weight="bold">2024</text>
+  <line x1="235.0" y1="88" x2="235.0" y2="725" stroke="#3b82f6" stroke-width="1" stroke-dasharray="6,4"/>
+  <rect x="450" y="55" width="310" height="680" rx="8" fill="#f8fafc"/>
+  <text x="605.0" y="78" font-size="28" fill="#8b5cf6" text-anchor="middle" font-weight="bold">2025</text>
+  <line x1="605.0" y1="88" x2="605.0" y2="725" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="6,4"/>
+  <rect x="820" y="55" width="310" height="680" rx="8" fill="#f8fafc"/>
+  <text x="975.0" y="78" font-size="28" fill="#ef4444" text-anchor="middle" font-weight="bold">2026</text>
+  <line x1="975.0" y1="88" x2="975.0" y2="725" stroke="#ef4444" stroke-width="1" stroke-dasharray="6,4"/>
+  <circle cx="102" cy="264" r="5" fill="#3b82f6"/>
+  <line x1="107" y1="264" x2="130" y2="264" stroke="#3b82f6" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="133" y="268" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">GAIA</text>
+  <text x="133" y="282" font-size="9" fill="#6b7280" text-anchor="start">Meta+HF  [EM]</text>
+  <circle cx="102" cy="524" r="5" fill="#3b82f6"/>
+  <line x1="107" y1="524" x2="130" y2="524" stroke="#3b82f6" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="133" y="528" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">FRAMES</text>
+  <text x="133" y="542" font-size="9" fill="#6b7280" text-anchor="start">Google DeepMind  [ML]</text>
+  <circle cx="472" cy="264" r="5" fill="#ef4444"/>
+  <line x1="477" y1="264" x2="500" y2="264" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="503" y="268" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">BrowseComp</text>
+  <text x="503" y="282" font-size="9" fill="#6b7280" text-anchor="start">OpenAI  [LLM-J]</text>
+  <circle cx="472" cy="292" r="5" fill="#ef4444"/>
+  <line x1="477" y1="292" x2="500" y2="292" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="503" y="296" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">BrowseComp-ZH</text>
+  <text x="503" y="310" font-size="9" fill="#6b7280" text-anchor="start">HKUST  [LLM-J]</text>
+  <circle cx="472" cy="316" r="5" fill="#8b5cf6"/>
+  <line x1="477" y1="316" x2="500" y2="316" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="503" y="320" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">DeepConsult</text>
+  <text x="503" y="334" font-size="9" fill="#6b7280" text-anchor="start">You.com  [PW]</text>
+  <circle cx="472" cy="368" r="5" fill="#ef4444"/>
+  <line x1="477" y1="368" x2="500" y2="368" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="503" y="372" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">xbench-DS</text>
+  <text x="503" y="386" font-size="9" fill="#6b7280" text-anchor="start">Sequoia CN  [LLM-J]</text>
+  <circle cx="472" cy="472" r="5" fill="#ef4444"/>
+  <line x1="477" y1="472" x2="500" y2="472" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="503" y="476" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">BrowseComp-Plus</text>
+  <text x="503" y="490" font-size="9" fill="#6b7280" text-anchor="start">Chen et al.  [EM]</text>
+  <circle cx="472" cy="500" r="5" fill="#10b981"/>
+  <line x1="477" y1="500" x2="500" y2="500" stroke="#10b981" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="503" y="504" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">WideSearch</text>
+  <text x="503" y="518" font-size="9" fill="#6b7280" text-anchor="start">ByteDance Seed  [EM]</text>
+  <circle cx="472" cy="528" r="5" fill="#8b5cf6"/>
+  <line x1="477" y1="528" x2="500" y2="528" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="503" y="532" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">ReportBench</text>
+  <text x="503" y="546" font-size="9" fill="#6b7280" text-anchor="start">ByteDance  [RB]</text>
+  <circle cx="472" cy="524" r="5" fill="#10b981"/>
+  <line x1="477" y1="524" x2="500" y2="524" stroke="#10b981" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="503" y="528" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">FinSearchComp</text>
+  <text x="503" y="542" font-size="9" fill="#6b7280" text-anchor="start">ByteDance Seed  [EM]</text>
+  <circle cx="472" cy="576" r="5" fill="#3b82f6"/>
+  <line x1="477" y1="576" x2="500" y2="576" stroke="#3b82f6" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="503" y="580" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">HLE</text>
+  <text x="503" y="594" font-size="9" fill="#6b7280" text-anchor="start">CAIS  [LLM-J]</text>
+  <circle cx="472" cy="628" r="5" fill="#ef4444"/>
+  <line x1="477" y1="628" x2="500" y2="628" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="503" y="632" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">WebWalkerQA</text>
+  <text x="503" y="646" font-size="9" fill="#6b7280" text-anchor="start">Alibaba  [ML]</text>
+  <circle cx="842" cy="108" r="5" fill="#3b82f6"/>
+  <line x1="847" y1="108" x2="870" y2="108" stroke="#3b82f6" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="873" y="112" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">DeepSearchQA</text>
+  <text x="873" y="126" font-size="9" fill="#6b7280" text-anchor="start">Google DeepMind  [LLM-J]</text>
+  <circle cx="842" cy="136" r="5" fill="#ef4444"/>
+  <line x1="847" y1="136" x2="870" y2="136" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="873" y="140" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">MM-BrowseComp</text>
+  <text x="873" y="154" font-size="9" fill="#6b7280" text-anchor="start">Community  [LLM-J]</text>
+  <circle cx="842" cy="164" r="5" fill="#8b5cf6"/>
+  <line x1="847" y1="164" x2="870" y2="164" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="873" y="168" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">MMDR-Bench</text>
+  <text x="873" y="182" font-size="9" fill="#6b7280" text-anchor="start">AIoT-MLSys  [RB]</text>
+  <circle cx="842" cy="160" r="5" fill="#8b5cf6"/>
+  <line x1="847" y1="160" x2="870" y2="160" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="873" y="164" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">DRB2</text>
+  <text x="873" y="178" font-size="9" fill="#6b7280" text-anchor="start">Community  [RB]</text>
+  <circle cx="842" cy="188" r="5" fill="#8b5cf6"/>
+  <line x1="847" y1="188" x2="870" y2="188" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="873" y="192" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">DRACO</text>
+  <text x="873" y="206" font-size="9" fill="#6b7280" text-anchor="start">Perplexity AI  [RB]</text>
+  <circle cx="842" cy="216" r="5" fill="#8b5cf6"/>
+  <line x1="847" y1="216" x2="870" y2="216" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="873" y="220" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">PDR-Bench</text>
+  <text x="873" y="234" font-size="9" fill="#6b7280" text-anchor="start">OPPO (ICLR)  [RB]</text>
+  <circle cx="842" cy="316" r="5" fill="#ef4444"/>
+  <line x1="847" y1="316" x2="870" y2="316" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="873" y="320" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">LiveBrowseComp</text>
+  <text x="873" y="334" font-size="9" fill="#6b7280" text-anchor="start">Community  [LLM-J]</text>
+  <circle cx="842" cy="368" r="5" fill="#ef4444"/>
+  <line x1="847" y1="368" x2="870" y2="368" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="873" y="372" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">K-BrowseComp</text>
+  <text x="873" y="386" font-size="9" fill="#6b7280" text-anchor="start">prometheus-eval  [LLM-J]</text>
+  <circle cx="842" cy="396" r="5" fill="#10b981"/>
+  <line x1="847" y1="396" x2="870" y2="396" stroke="#10b981" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="873" y="400" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">PhySciBench</text>
+  <text x="873" y="414" font-size="9" fill="#6b7280" text-anchor="start">Community  [LLM-J]</text>
+  <circle cx="842" cy="424" r="5" fill="#3b82f6"/>
+  <line x1="847" y1="424" x2="870" y2="424" stroke="#3b82f6" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="873" y="428" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">InfoSeek</text>
+  <text x="873" y="442" font-size="9" fill="#6b7280" text-anchor="start">BAAI  [EM]</text>
+  <circle cx="842" cy="452" r="5" fill="#3b82f6"/>
+  <line x1="847" y1="452" x2="870" y2="452" stroke="#3b82f6" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="873" y="456" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">KnowledgeBerg</text>
+  <text x="873" y="470" font-size="9" fill="#6b7280" text-anchor="start">ACL 2026  [EM]</text>
+  <circle cx="25" cy="709" r="5" fill="#3b82f6"/>
+  <text x="35" y="713" font-size="11" fill="#1a1a2e" text-anchor="start">基础能力</text>
+  <circle cx="125" cy="709" r="5" fill="#ef4444"/>
+  <text x="135" y="713" font-size="11" fill="#1a1a2e" text-anchor="start">浏览搜索</text>
+  <circle cx="225" cy="709" r="5" fill="#8b5cf6"/>
+  <text x="235" y="713" font-size="11" fill="#1a1a2e" text-anchor="start">报告评估</text>
+  <circle cx="325" cy="709" r="5" fill="#10b981"/>
+  <text x="335" y="713" font-size="11" fill="#1a1a2e" text-anchor="start">领域特化</text>
+  <text x="1180" y="720" font-size="10" fill="#9ca3af" text-anchor="end">节点大小表示样本量, 形状表示评分方式, 颜色表示类别</text>
+</svg>

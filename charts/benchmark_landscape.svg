@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720"
+     width="1000" height="720"
+     font-family="system-ui, -apple-system, sans-serif">
+  <rect width="1000" height="720" fill="#ffffff"/>
+
+  <text x="500.0" y="32" font-size="20" fill="#1a1a2e" text-anchor="middle" font-weight="bold">Deep Research Benchmark 全景图</text>
+  <rect x="120" y="70" width="820" height="570" rx="4" fill="#fafbfc"/>
+  <line x1="120" y1="70.0" x2="940" y2="70.0" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="120" y1="127.0" x2="940" y2="127.0" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="120" y1="184.0" x2="940" y2="184.0" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="120" y1="241.0" x2="940" y2="241.0" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="120" y1="298.0" x2="940" y2="298.0" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="120" y1="355.0" x2="940" y2="355.0" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="120" y1="412.0" x2="940" y2="412.0" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="120" y1="469.0" x2="940" y2="469.0" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="120" y1="526.0" x2="940" y2="526.0" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="120" y1="583.0" x2="940" y2="583.0" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="120" y1="640.0" x2="940" y2="640.0" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="120.0" y1="70" x2="120.0" y2="640" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="284.0" y1="70" x2="284.0" y2="640" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="448.0" y1="70" x2="448.0" y2="640" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="612.0" y1="70" x2="612.0" y2="640" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="776.0" y1="70" x2="776.0" y2="640" stroke="#e8ecf1" stroke-width="0.5"/>
+  <line x1="940.0" y1="70" x2="940.0" y2="640" stroke="#e8ecf1" stroke-width="0.5"/>
+  <text x="530.0" y="680" font-size="12" fill="#6b7280" text-anchor="middle">样本量 (log scale)</text>
+  <text x="65" y="355.0" font-size="12" fill="#6b7280" text-anchor="middle">任务复杂度</text>
+  <text x="110" y="644.0" font-size="9" fill="#9ca3af" text-anchor="end">低 (1-2步)</text>
+  <text x="110" y="454.0" font-size="9" fill="#9ca3af" text-anchor="end">中 (3-6步)</text>
+  <text x="110" y="264.0" font-size="9" fill="#9ca3af" text-anchor="end">高 (7+步/
+多工具)</text>
+  <text x="110" y="74.0" font-size="9" fill="#9ca3af" text-anchor="end">极高 (专家级)</text>
+  <text x="200.1656598686126" y="660" font-size="9" fill="#9ca3af" text-anchor="middle">100</text>
+  <line x1="200.1656598686126" y1="640" x2="200.1656598686126" y2="645" stroke="#e8ecf1" stroke-width="1.5"/>
+  <text x="386.30455776272845" y="660" font-size="9" fill="#9ca3af" text-anchor="middle">500</text>
+  <line x1="386.30455776272845" y1="640" x2="386.30455776272845" y2="645" stroke="#e8ecf1" stroke-width="1.5"/>
+  <text x="466.4702176313411" y="660" font-size="9" fill="#9ca3af" text-anchor="middle">1K</text>
+  <line x1="466.4702176313411" y1="640" x2="466.4702176313411" y2="645" stroke="#e8ecf1" stroke-width="1.5"/>
+  <text x="652.6091155254569" y="660" font-size="9" fill="#9ca3af" text-anchor="middle">5K</text>
+  <line x1="652.6091155254569" y1="640" x2="652.6091155254569" y2="645" stroke="#e8ecf1" stroke-width="1.5"/>
+  <text x="918.9136732881854" y="660" font-size="9" fill="#9ca3af" text-anchor="middle">50K</text>
+  <line x1="918.9136732881854" y1="640" x2="918.9136732881854" y2="645" stroke="#e8ecf1" stroke-width="1.5"/>
+  <circle cx="378.15987582757896" cy="355.0" r="5" fill="#10b981" stroke="#fff" stroke-width="2"/>
+  <circle cx="444.081250922462" cy="298.0" r="5" fill="#06b6d4" stroke="#fff" stroke-width="2"/>
+  <circle cx="493.74878032280685" cy="206.79999999999998" r="6" fill="#f59e0b" stroke="#fff" stroke-width="2"/>
+  <circle cx="322.9048560576906" cy="229.60000000000002" r="6" fill="#f59e0b" stroke="#fff" stroke-width="2"/>
+  <circle cx="444.920344808235" cy="275.2" r="6" fill="#10b981" stroke="#fff" stroke-width="2"/>
+  <circle cx="200.1656598686126" cy="241.00000000000003" r="6" fill="#f59e0b" stroke="#fff" stroke-width="2"/>
+  <circle cx="280.3313197372252" cy="320.80000000000007" r="6" fill="#10b981" stroke="#fff" stroke-width="2"/>
+  <circle cx="413.94796176603023" cy="298.0" r="6" fill="#10b981" stroke="#fff" stroke-width="2"/>
+  <circle cx="421.86657770037675" cy="263.80000000000007" r="6" fill="#06b6d4" stroke="#fff" stroke-width="2"/>
+  <circle cx="555.4296387229226" cy="126.99999999999999" r="6" fill="#f59e0b" stroke="#fff" stroke-width="2"/>
+  <circle cx="280.3313197372252" cy="241.00000000000003" r="6" fill="#6366f1" stroke="#fff" stroke-width="2"/>
+  <circle cx="247.05956473731788" cy="298.0" r="6" fill="#ec4899" stroke="#fff" stroke-width="2"/>
+  <circle cx="454.28478934324824" cy="183.99999999999997" r="8" fill="#f59e0b" stroke="#fff" stroke-width="2"/>
+  <text x="466.28478934324824" y="187.99999999999997" font-size="8" fill="#6b7280" text-anchor="start">DeepSearchQA</text>
+  <circle cx="280.3313197372252" cy="149.8" r="8" fill="#6366f1" stroke="#fff" stroke-width="2"/>
+  <text x="292.3313197372252" y="153.8" font-size="8" fill="#6b7280" text-anchor="start">DRB2</text>
+  <circle cx="360.49697960583774" cy="183.99999999999997" r="8" fill="#f59e0b" stroke="#fff" stroke-width="2"/>
+  <text x="372.49697960583774" y="187.99999999999997" font-size="8" fill="#6b7280" text-anchor="start">MM-BrowseC.</text>
+  <circle cx="339.98748501217676" cy="161.19999999999996" r="8" fill="#f59e0b" stroke="#fff" stroke-width="2"/>
+  <text x="351.98748501217676" y="165.19999999999996" font-size="8" fill="#6b7280" text-anchor="start">LiveBrowseC.</text>
+  <circle cx="360.49697960583774" cy="206.79999999999998" r="8" fill="#f59e0b" stroke="#fff" stroke-width="2"/>
+  <text x="372.49697960583774" y="210.79999999999998" font-size="8" fill="#6b7280" text-anchor="start">K-BrowseComp</text>
+  <circle cx="327.22522460593046" cy="183.99999999999997" r="8" fill="#6366f1" stroke="#fff" stroke-width="2"/>
+  <text x="339.22522460593046" y="187.99999999999997" font-size="8" fill="#6b7280" text-anchor="start">DRACO</text>
+  <circle cx="280.3313197372252" cy="92.80000000000001" r="8" fill="#f59e0b" stroke="#fff" stroke-width="2"/>
+  <text x="292.3313197372252" y="96.80000000000001" font-size="8" fill="#6b7280" text-anchor="start">PhySciBench</text>
+  <circle cx="239.08022178664203" cy="126.99999999999999" r="8" fill="#6366f1" stroke="#fff" stroke-width="2"/>
+  <text x="251.08022178664203" y="131.0" font-size="8" fill="#6b7280" text-anchor="start">MMDR-Bench</text>
+  <circle cx="306.13889789411587" cy="161.19999999999996" r="8" fill="#6366f1" stroke="#fff" stroke-width="2"/>
+  <text x="318.13889789411587" y="165.19999999999996" font-size="8" fill="#6b7280" text-anchor="start">PDR-Bench</text>
+  <circle cx="918.9136732881854" cy="412.0" r="8" fill="#10b981" stroke="#fff" stroke-width="2"/>
+  <text x="906.9136732881854" y="416.0" font-size="8" fill="#6b7280" text-anchor="end">InfoSeek</text>
+  <circle cx="647.8878640803807" cy="241.00000000000003" r="8" fill="#10b981" stroke="#fff" stroke-width="2"/>
+  <text x="659.8878640803807" y="245.00000000000003" font-size="8" fill="#6b7280" text-anchor="start">KnowledgeBerg</text>
+  <circle cx="125" cy="674" r="5" fill="#10b981"/>
+  <text x="135" y="678" font-size="10" fill="#1a1a2e" text-anchor="start">精确匹配</text>
+  <circle cx="230" cy="674" r="5" fill="#f59e0b"/>
+  <text x="240" y="678" font-size="10" fill="#1a1a2e" text-anchor="start">LLM Judge</text>
+  <circle cx="335" cy="674" r="5" fill="#06b6d4"/>
+  <text x="345" y="678" font-size="10" fill="#1a1a2e" text-anchor="start">多级评分</text>
+  <circle cx="440" cy="674" r="5" fill="#ec4899"/>
+  <text x="450" y="678" font-size="10" fill="#1a1a2e" text-anchor="start">成对比较</text>
+  <circle cx="545" cy="674" r="5" fill="#6366f1"/>
+  <text x="555" y="678" font-size="10" fill="#1a1a2e" text-anchor="start">Rubric</text>
+</svg>

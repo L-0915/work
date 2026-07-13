@@ -1,0 +1,192 @@
+{
+  "inference_category": {
+    "name": "推理 Prompt (Inference)",
+    "goal": "驱动 Agent 行动：搜索→浏览→提取→综合→回答",
+    "user": "Agent 模型（执行研究任务的主体）",
+    "complexity_trend": "越来越简单 ↓（Bitter Lesson 效应）",
+    "structure_level": "中低——给 Agent 探索空间",
+    "failure_modes": [
+      "上下文腐烂 (Context Rot)：长时间积累的无用内容污染推理",
+      "认知窒息 (Cognitive Suffocation)：信息过载导致无法有效决策",
+      "噪声污染 (Noise Pollution)：工具返回的大量低信噪比内容",
+      "幻觉工具调用：生成不存在的工具或参数",
+      "过早终止：在找到正确答案前停止搜索"
+    ],
+    "optimization": "遗传式 Prompt 进化 (GEPA) + RL 微调 (GRPO)",
+    "context_scope": "管理 100K+ token 流式工具调用结果，需要持续裁剪和压缩"
+  },
+  "evaluation_category": {
+    "name": "评估 Prompt (Evaluation)",
+    "goal": "驱动 Judge 判断：接收输入→应用标准→输出评分",
+    "user": "LLM-as-Judge 模型（评分主体）",
+    "complexity_trend": "越来越复杂 ↑（多轴 Rubric → Claim-Graph 验证 → 过程评估）",
+    "structure_level": "高——确保评分一致性和可复现性",
+    "failure_modes": [
+      "隐性需求遗漏 (Implicit Requirement Gap)：用户未明说但理应满足的需求被忽略",
+      "Judge 偏见 (Judge Bias)：评分模型自身偏好影响客观性",
+      "Reward Hacking：Agent 学习表面特征而非真正提高质量",
+      "表面词汇重叠：评分基于词汇相似度而非语义理解",
+      "综合质量盲区：无法评估跨段落的逻辑连贯性和论证强度"
+    ],
+    "optimization": "人类专家 Rubric 校准 + ELO 锦标赛对比",
+    "context_scope": "全局评估完整输出（最终答案或长篇报告），一次输入全部内容"
+  },
+  "structural_comparison": [
+    {
+      "aspect": "身份声明",
+      "inference": "定义 Agent 角色和能力边界（如 'Web Information Seeking Master'）",
+      "evaluation": "定义 Judge 角色和判断权限（如 'evaluation assistant'）",
+      "diff_key": "Agent 需要知道能做什么，Judge 需要知道如何判断"
+    },
+    {
+      "aspect": "工具/能力定义",
+      "inference": "嵌入 JSON Schema 工具定义，详细描述每个工具的输入输出",
+      "evaluation": "无工具定义——Judge 不需要外部工具",
+      "diff_key": "推理需要工具，评估是纯文本判断"
+    },
+    {
+      "aspect": "输出格式约束",
+      "inference": "XML/JSON 标签约束 Action（<think>/<tool_call>/<answer>）",
+      "evaluation": "限制为固定词汇（Correct/Incorrect）或 JSON Schema",
+      "diff_key": "推理输出结构复杂（含工具调用），评估输出简单但严格"
+    },
+    {
+      "aspect": "行为原则",
+      "inference": "持续性、验证性、细节关注——驱动多轮探索",
+      "evaluation": "语义等价、完整性、准确性——驱动多维度评分",
+      "diff_key": "推理原则指导过程，评估原则指导判断"
+    },
+    {
+      "aspect": "上下文管理",
+      "inference": "定义摘要触发条件、裁剪策略、降级方案（Token 超限时措施）",
+      "evaluation": "无需上下文管理——单次评估不超过窗口限制",
+      "diff_key": "推理需要管理长对话，评估是一次性输入"
+    },
+    {
+      "aspect": "停止条件",
+      "inference": "Stop sequences 防止幻觉（如阻止 LLM 伪造工具响应）",
+      "evaluation": "输出约束（只输出一词/JSON）防止 Judge 超范围回答",
+      "diff_key": "推理防幻觉生成，评估防评分漂移"
+    },
+    {
+      "aspect": "Few-shot 使用",
+      "inference": "一般不加 Few-shot——Agent 需要泛化能力",
+      "evaluation": "大量使用 Few-shot 校准评分标准（如 Obama 孩子例子）",
+      "diff_key": "推理要泛化，评估要标准化"
+    },
+    {
+      "aspect": "变量注入",
+      "inference": "注入 tools schema / question / goal / context",
+      "evaluation": "注入 question + correct_answer + predicted_answer 三要素",
+      "diff_key": "推理需要动态信息，评估需要标准答案作为对照"
+    }
+  ],
+  "prompt_side_by_side": [
+    {
+      "title": "身份声明对比",
+      "inference_prompt": "You are a Web Information Seeking Master. Your task is to thoroughly seek the internet for information...",
+      "evaluation_prompt": "You are an evaluation assistant. Please determine if the predicted answer is equivalent to the labeled answer.",
+      "analysis": "推理 Prompt 将 Agent 定位为主动探索者 (Master)，评估 Prompt 将 Judge 定位为被动判断者 (Assistant)。身份定位决定行为模式：前者要主动搜索，后者只需判断。"
+    },
+    {
+      "title": "行为指令对比",
+      "inference_prompt": "Principles:\n1. Persistent Actions for Answers\n2. Repeated Verification\n3. Attention to Detail",
+      "evaluation_prompt": "Rules:\n1. Semantic equivalence matters, not exact wording\n2. Minor formatting differences should be ignored\n3. If the predicted answer contains the correct information among other text, count it as CORRECT",
+      "analysis": "推理指令关注过程 (怎么做)，评估指令关注标准 (怎么判)。推理的 'Persistent' 和 'Verification' 引导多轮搜索，评估的 'equivalence' 和 'ignore formatting' 防止过严判分。"
+    },
+    {
+      "title": "输出约束对比",
+      "inference_prompt": "Use <think> for reasoning, <tool_call> for tool invocation, <answer> for final answer. Stop on '</tool_response>'.",
+      "evaluation_prompt": "Respond with ONLY \"Correct\" or \"Incorrect\". Do not include any other text.",
+      "analysis": "推理输出复杂——需要嵌套的工具调用 JSON，用 XML 标签分隔。评估输出极简——只输出一个词，消除解析歧义。这反映了两种 Prompt 的本质差异：推理要灵活，评估要精确。"
+    }
+  ],
+  "evolution_timeline": [
+    {
+      "period": "2024 H1",
+      "inference": "高度结构化 Prompt——预定义章节、硬编码假设、分段写作",
+      "evaluation": "简单等价判断——只输出 Correct/Incorrect",
+      "key_event": "GAIA 发布 (2024.04)——确立 Exact Match 标准"
+    },
+    {
+      "period": "2024 H2",
+      "inference": "过渡到工具调用驱动——移除段落级模板，引入 ReAct",
+      "evaluation": "LLM-as-Judge 开始兴起——处理语义等价",
+      "key_event": "LangChain Open Deep Research 简化 Prompt 结构"
+    },
+    {
+      "period": "2025 H1",
+      "inference": "最小结构——Agent 自主确定研究路径，纯 ReAct",
+      "evaluation": "三级评分 + Few-shot 校准——CORRECT/INCORRECT/NOT_ATTEMPTED",
+      "key_event": "BrowseComp 发布——LLM Judge 成为主流"
+    },
+    {
+      "period": "2025 H2",
+      "inference": "RL 训练的端到端 Agent 出现——显式 Prompt 工程可能被淘汰",
+      "evaluation": "多轴 Rubric（6+ 维度）+ Claim-Graph 验证 + 过程评估",
+      "key_event": "ResearchRubrics (Scale AI)、ReportBench (ByteDance)、Tongyi DeepResearch 开源"
+    },
+    {
+      "period": "2026+ (趋势)",
+      "inference": "极少手工 Prompt → 全部由 RL 学习的行为策略取代",
+      "evaluation": "实时动态评估 + 自动发现新的评估维度 + 对抗式评分",
+      "key_event": "Kimi K2.5 Swarm 多 Agent 达到 72.1% BrowseComp"
+    }
+  ],
+  "coupling_matrix": [
+    {
+      "eval_dimension": "引用准确性 (Citation Accuracy)",
+      "inference_implication": "Agent 必须在每次检索时保存来源 URL、标题和时间戳",
+      "design_change": "在 <tool_response> 中增加引用元数据字段",
+      "affected_components": [
+        "visit 工具",
+        "EXTRACTOR_PROMPT",
+        "最终 <answer> 格式"
+      ]
+    },
+    {
+      "eval_dimension": "隐性需求遵循 (Implicit Requirement)",
+      "inference_implication": "Agent 需要在搜索前花步骤分析用户未明说的假设",
+      "design_change": "在 SYSTEM_PROMPT 中增加 '分析隐性需求' 步骤",
+      "affected_components": [
+        "SYSTEM_PROMPT",
+        "ReAct 循环第一步"
+      ]
+    },
+    {
+      "eval_dimension": "结构连贯性 (Structural Coherence)",
+      "inference_implication": "Agent 必须写作前先列大纲，保持逻辑流",
+      "design_change": "增加 'outline' 工具或在 <think> 中要求结构化计划",
+      "affected_components": [
+        "SYSTEM_PROMPT",
+        "输出格式指令"
+      ]
+    },
+    {
+      "eval_dimension": "事实 Grounding",
+      "inference_implication": "Agent 在声明前跨多源交叉引用",
+      "design_change": "行为原则强调 '交叉验证' (已在 Tongyi 中体现)",
+      "affected_components": [
+        "SYSTEM_PROMPT 行为原则"
+      ]
+    },
+    {
+      "eval_dimension": "关键点覆盖 (Key Points Coverage)",
+      "inference_implication": "Agent 显式追踪哪些子主题已覆盖，哪些未覆盖",
+      "design_change": "增加 'coverage_tracker' 内部状态或检查步骤",
+      "affected_components": [
+        "ReAct 循环",
+        "SYSTEM_PROMPT"
+      ]
+    },
+    {
+      "eval_dimension": "成本效率 (Cost Efficiency)",
+      "inference_implication": "Agent 需在搜索广度和成本间平衡",
+      "design_change": "增加搜索轮次上限、预算感知的决策逻辑",
+      "affected_components": [
+        "工具定义",
+        "MAX_LLM_CALL_PER_RUN"
+      ]
+    }
+  ]
+}

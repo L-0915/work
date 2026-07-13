@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500"
+     font-family="system-ui, -apple-system, sans-serif">
+<rect width="800" height="500" fill="#ffffff"/>
+
+<text x="400.0" y="30" font-size="18" fill="#1a1a2e" text-anchor="middle" font-weight="bold">评估方法推断 (基于 answer 格式/列结构)</text>
+<polygon points="280,280 280,130 308,133 335,141 360,153 383,171 401,192 416,216 425,243 430,271 429,299 423,326 411,352 396,376 376,396 352,411 326,423 299,429 271,430 243,425 216,416 192,401" fill="#10b981" fill-opacity="0.7" stroke="#fff" stroke-width="2"/>
+<text x="460.70073809607914" y="338.71322893124" font-size="10" fill="#1a1a2e" text-anchor="middle">LLM-as-Judge
+(3, 60%)</text>
+<polygon points="280,280 192,401 184,396 177,389 171,383 164,376 159,368 153,360 149,352 144,344 141,335 137,326 135,317 133,308 131,299 130,289 130,280 130,271 131,261 133,252 135,243 137,234" fill="#f59e0b" fill-opacity="0.7" stroke="#fff" stroke-width="2"/>
+<text x="99.29926190392084" y="338.71322893124" font-size="10" fill="#1a1a2e" text-anchor="middle">集合匹配 (Set Matching)
+(1, 20%)</text>
+<polygon points="280,280 137,234 141,225 144,216 149,208 153,200 159,192 164,184 171,177 177,171 184,164 192,159 200,153 208,149 216,144 225,141 234,137 243,135 252,133 261,131 271,130 280,130" fill="#06b6d4" fill-opacity="0.7" stroke="#fff" stroke-width="2"/>
+<text x="168.3208020644301" y="126.28677106876" font-size="10" fill="#1a1a2e" text-anchor="middle">Rubric 评分
+(1, 20%)</text>
+<text x="480" y="80" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">DeepSearchQA (2026)</text>
+<text x="485" y="98" font-size="9" fill="#6b7280" text-anchor="start">集合匹配 (Set Matching) — 评估「答全了没有」</text>
+<text x="485" y="110" font-size="9" fill="#9ca3af" text-anchor="start">证据: 答案为列表/集合格式, 每条记录答案项数 &gt; 1</text>
+<text x="480" y="150" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">FRAMES (2024)</text>
+<text x="485" y="168" font-size="9" fill="#6b7280" text-anchor="start">LLM-as-Judge — 语义等价判断 + 引用验证</text>
+<text x="485" y="180" font-size="9" fill="#9ca3af" text-anchor="start">证据: 答案较长/开放, 需要 LLM Judge 判断语义等价; 含引用列: ['wikipedia_link_1', 'wikipedia_link_2', 'wikipedia_link_3', 'wi</text>
+<text x="480" y="220" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">DRACO (2026)</text>
+<text x="485" y="238" font-size="9" fill="#6b7280" text-anchor="start">LLM-as-Judge — 语义等价判断</text>
+<text x="485" y="250" font-size="9" fill="#9ca3af" text-anchor="start">证据: 答案较长/开放, 需要 LLM Judge 判断语义等价</text>
+<text x="480" y="290" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">PhySciBench (2026)</text>
+<text x="485" y="308" font-size="9" fill="#6b7280" text-anchor="start">Rubric 评分 — 多维标准打分</text>
+<text x="485" y="320" font-size="9" fill="#9ca3af" text-anchor="start">证据: 答案较长/开放, 需要 LLM Judge 判断语义等价; 数据集包含 rubrics 评分标准列</text>
+<text x="480" y="360" font-size="12" fill="#1a1a2e" text-anchor="start" font-weight="bold">K-BrowseComp (2026)</text>
+<text x="485" y="378" font-size="9" fill="#6b7280" text-anchor="start">LLM-as-Judge — 语义等价判断</text>
+<text x="485" y="390" font-size="9" fill="#9ca3af" text-anchor="start">证据: 答案较长/开放, 需要 LLM Judge 判断语义等价</text>
+</svg>
