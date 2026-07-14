@@ -427,6 +427,9 @@ PQR 框架：个性化(Personalization)、质量(Quality)、可靠性(Reliabilit
 | **GitHub** | [deep_research_bench](https://github.com/Ayanami0730/deep_research_bench) |
 
 **衡量指标**：PAR、OPC、FAP、FAS、LLM as Judge
+**两个框架**：RACE (Reference-based Adaptive Criteria-driven Evaluation)、FACT (Framework for Factual Abundance and Citation Trustworthiness)
+'{"id": 1, "topic": "Finance & Business", "language": "zh", "prompt": "收集整理目前中国9阶层实际收入和财务状况，特别研究得出中国的中产有哪些特点，实际中产人数，财力等等"}
+{"id": 2, "topic": "Finance & Business", "language": "zh", "prompt": "收集整理目前国际综合实力前十的保险公司的相关资料，横向比较各公司的融资情况、信誉度、过往五年的增长幅度、实际分红、未来在中国发展潜力等维度，并为我评估出最有可能在未来资产排名靠前的2-3家公司"}'
 
 ---
 
