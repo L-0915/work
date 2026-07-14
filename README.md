@@ -417,6 +417,19 @@ PQR 框架：个性化(Personalization)、质量(Quality)、可靠性(Reliabilit
 
 ---
 
+#### DeepResearch Bench
+
+| 属性 | 值 |
+|------|-----|
+| 发布方 | 中科大|
+| 发布时间 | 2026 |
+| 样本量 | 100 tasks |
+| **GitHub** | [deep_research_bench](https://github.com/Ayanami0730/deep_research_bench) |
+
+**衡量指标**：PAR、OPC、FAP、FAS、LLM as Judge
+
+---
+
 #### KnowledgeBerg 
 | 属性 | 值 |
 |------|-----|
